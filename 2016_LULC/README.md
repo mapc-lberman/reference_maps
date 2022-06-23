@@ -2,4 +2,4 @@
 
 json file will load as a map in github, links are in popup
 
-you may download both files to your machine and view "leaflet_map.html" in a browser to avoid copying and pasting links from the github default map.
+you may post both files to a webserver and view "leaflet_map.html" in a browser.  This provides one click direct links to the .zip files for each tile.  otherwise you will need to copy and paste the links from the popups on the github default map.
