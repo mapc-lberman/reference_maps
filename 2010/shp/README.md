@@ -1,4 +1,4 @@
-# MA Census Tracts 2010 dissolved
+# MA Blocks 2010 dissolved
 
 single boundary for all of Massachusetts (for clipping 2010 features)
 
