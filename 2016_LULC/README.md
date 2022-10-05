@@ -16,4 +16,4 @@ previously github default map of geojson files could be clicked to see popup of 
 
 _Color ramp_
 
-lulc_2016_tiles_color_ramp.lyrx  is a default color ramp for the downloadable raster tiles.  see the JPG for an example of how it looks.
+lulc_2016_tiles_color_ramp.lyrx  is a default ArcGIS Pro color ramp for the downloadable raster tiles.  see the JPG for an example of how it looks.
