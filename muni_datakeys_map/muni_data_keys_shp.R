@@ -1,5 +1,11 @@
 library(tidyverse)
 library(sf)
+library(devtools)
+
+# install.packages("devtools")
+devtools::install_github("MAPC/mapcdatakeys")
+
+# library(mapcdatakeys)
 
 df = read_sf("//Client/C$/Users/MAPCStaff/Desktop/SWAP/SHP/ma_muni_for_datakeys.shp") %>% 
   select(!c(TOWN,SHAPE_AREA,SHAPE_LEN)) %>% rename(muni_id = TOWN_ID) %>% 
@@ -7,3 +13,4 @@ df = read_sf("//Client/C$/Users/MAPCStaff/Desktop/SWAP/SHP/ma_muni_for_datakeys.
   mutate(across(.cols = c(muni_name, muni_id), .fns = as.character))
   
 df %>% write_sf("//Client/C$/Users/MAPCStaff/Desktop/SWAP/SHP/muni_datakeys_shp_edited.shp")
+
