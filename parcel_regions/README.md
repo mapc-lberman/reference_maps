@@ -10,20 +10,18 @@ _West_ Central and Western MA
 
 For convenience in joining with other data by Muni ID, the Parcel Regions files contain the list of Muni_IDs and Muni Names that relate to each of these regions.
 
-Shapefiles of Muni Boundaries, and reference maps are included.
-
-shapefile in MAPC projection: CPSG 26986
-PROJCRS - "NAD83 / Massachusetts Mainland"
+Geojson files as reference maps are included (projection: EPSG 4326)
 
 
 # Code for deriving the lists of Muni IDs by region
 
-The original Parcel Data for each of the regions is available on Datacommon:
+The original Parcels (polygon shapefiles) for each of the regions are available for download on Datacommon:
 
-__Metro Boston Region__: https://datacommon.mapc.org/browser/datasets/359
+_Metro Boston Region_: https://datacommon.mapc.org/browser/datasets/359
 
-__Southeast__: https://datacommon.mapc.org/browser/datasets/359
+_Southeast_: https://datacommon.mapc.org/browser/datasets/359
 
-__West__: https://datacommon.mapc.org/browser/datasets/358
+_West_: https://datacommon.mapc.org/browser/datasets/358
 
-Parcel_regions_by_muni.R  imports only the muni_id and muni names, then finds the distinct values and exports them to the .csv files in this folder (parecels_metro.csv, parcels_se.csv, parcels_west.csv).  Note, these are not parcel level data, but the lists of MUNI_IDs that correspond the the parcel regions.
+
+__Parcel_regions_by_muni.R__  script for extracting muni_ids from orignal csv files (which are > 1GB in size).  imports only the muni_id and muni names, then finds the distinct values and exports them to the .csv files in this folder (parecels_metro.csv, parcels_se.csv, parcels_west.csv).  (Note, these are not parcel level data, they contain the lists of MUNI_IDs that correspond the the parcel regions.)
