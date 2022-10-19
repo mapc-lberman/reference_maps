@@ -10,7 +10,9 @@ _West_ Central and Western MA
 
 For convenience in joining with other data by Muni ID, the Parcel Regions files contain the list of Muni_IDs and Muni Names that relate to each of these regions.
 
-Geojson files as reference maps are included (projection: EPSG 4326)
+__Geojson__ files as reference maps are included (projection: EPSG 4326)
+
+__.zip__ archives contain shapefiles of Muni polygons for each region
 
 
 # Code for deriving the lists of Muni IDs by region
