@@ -2,9 +2,9 @@
 
 the shapefile for all MA parcels is too large for downloading, so it has been divided into three regions.
 
-_Metrofuture_  Boston Metro Area and North Shore
+_Metrofuture_  Boston Metro Area and North Shore plus most of South Shore 
 
-_Southeast_ South Shore and Cape Cod
+_Southeast_ Cape Cod
 
 _West_ Central and Western MA
 
