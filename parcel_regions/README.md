@@ -17,7 +17,7 @@ Geojson files as reference maps are included (projection: EPSG 4326)
 
 The original Parcels (polygon shapefiles) for each of the regions are available for download on Datacommon:
 
-_Metro Boston Region_: https://datacommon.mapc.org/browser/datasets/359
+_Metro Boston Region_: https://datacommon.mapc.org/browser/datasets/360
 
 _Southeast_: https://datacommon.mapc.org/browser/datasets/359
 
