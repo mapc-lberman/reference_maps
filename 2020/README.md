@@ -1,8 +1,5 @@
-# Census Tracts w/ muni names
+# Census Tracts
 
-shapefile in MAPC projection: CPSG 26986
-PROJCRS - "NAD83 / Massachusetts Mainland"
+__basemap__:  paths to shapefile and geojson versions of 2020 Census Tracts
 
-(note: Geojson file in WGS84 CPSG 4326)
-
-original source:  TIGRIS US CENSUS
+__density__:  pre-calculated with population and housing units density (with R scripts)
