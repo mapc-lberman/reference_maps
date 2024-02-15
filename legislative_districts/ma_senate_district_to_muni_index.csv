@@ -1,0 +1,775 @@
+OBJECTID,Join_Count,TARGET_FID,SENDISTNUM,SEN_DIST,muni_caps,muni_id,cnty_fips,cnty_nm,municipal
+1,1,1,30,First Suffolk,WINTHROP,346,25025,Suffolk,Winthrop
+2,1,1,30,First Suffolk,BOSTON,35,25025,Suffolk,Boston
+3,1,2,31,First Plymouth and Norfolk,PLYMOUTH,239,25023,Plymouth,Plymouth
+4,1,2,31,First Plymouth and Norfolk,HINGHAM,131,25023,Plymouth,Hingham
+5,1,2,31,First Plymouth and Norfolk,WEYMOUTH,336,25021,Norfolk,Weymouth
+6,1,2,31,First Plymouth and Norfolk,SCITUATE,264,25023,Plymouth,Scituate
+7,1,2,31,First Plymouth and Norfolk,NORWELL,219,25023,Plymouth,Norwell
+8,1,2,31,First Plymouth and Norfolk,COHASSET,65,25021,Norfolk,Cohasset
+9,1,2,31,First Plymouth and Norfolk,BRAINTREE,40,25021,Norfolk,Braintree
+10,1,2,31,First Plymouth and Norfolk,BOSTON,35,25025,Suffolk,Boston
+11,1,2,31,First Plymouth and Norfolk,HULL,142,25023,Plymouth,Hull
+12,1,2,31,First Plymouth and Norfolk,HOLBROOK,133,25021,Norfolk,Holbrook
+13,1,2,31,First Plymouth and Norfolk,ABINGTON,1,25023,Plymouth,Abington
+14,1,2,31,First Plymouth and Norfolk,ROCKLAND,251,25023,Plymouth,Rockland
+15,1,2,31,First Plymouth and Norfolk,KINGSTON,145,25023,Plymouth,Kingston
+16,1,2,31,First Plymouth and Norfolk,PEMBROKE,231,25023,Plymouth,Pembroke
+17,1,2,31,First Plymouth and Norfolk,MARSHFIELD,171,25023,Plymouth,Marshfield
+18,1,2,31,First Plymouth and Norfolk,HANOVER,122,25023,Plymouth,Hanover
+19,1,2,31,First Plymouth and Norfolk,DUXBURY,82,25023,Plymouth,Duxbury
+20,1,3,32,Norfolk and Plymouth,HINGHAM,131,25023,Plymouth,Hingham
+21,1,3,32,Norfolk and Plymouth,QUINCY,243,25021,Norfolk,Quincy
+22,1,3,32,Norfolk and Plymouth,WEYMOUTH,336,25021,Norfolk,Weymouth
+23,1,3,32,Norfolk and Plymouth,NORWELL,219,25023,Plymouth,Norwell
+24,1,3,32,Norfolk and Plymouth,RANDOLPH,244,25021,Norfolk,Randolph
+25,1,3,32,Norfolk and Plymouth,MILTON,189,25021,Norfolk,Milton
+26,1,3,32,Norfolk and Plymouth,BRAINTREE,40,25021,Norfolk,Braintree
+27,1,3,32,Norfolk and Plymouth,HOLBROOK,133,25021,Norfolk,Holbrook
+28,1,3,32,Norfolk and Plymouth,AVON,18,25021,Norfolk,Avon
+29,1,3,32,Norfolk and Plymouth,ABINGTON,1,25023,Plymouth,Abington
+30,1,3,32,Norfolk and Plymouth,WHITMAN,338,25023,Plymouth,Whitman
+31,1,3,32,Norfolk and Plymouth,BROCKTON,44,25023,Plymouth,Brockton
+32,1,3,32,Norfolk and Plymouth,ROCKLAND,251,25023,Plymouth,Rockland
+33,1,3,32,Norfolk and Plymouth,PEMBROKE,231,25023,Plymouth,Pembroke
+34,1,3,32,Norfolk and Plymouth,HANOVER,122,25023,Plymouth,Hanover
+35,1,3,32,Norfolk and Plymouth,HANSON,123,25023,Plymouth,Hanson
+36,1,4,33,Norfolk -  Plymouth and Bristol,QUINCY,243,25021,Norfolk,Quincy
+37,1,4,33,Norfolk -  Plymouth and Bristol,DEDHAM,73,25021,Norfolk,Dedham
+38,1,4,33,Norfolk -  Plymouth and Bristol,RANDOLPH,244,25021,Norfolk,Randolph
+39,1,4,33,Norfolk -  Plymouth and Bristol,MILTON,189,25021,Norfolk,Milton
+40,1,4,33,Norfolk -  Plymouth and Bristol,BRAINTREE,40,25021,Norfolk,Braintree
+41,1,4,33,Norfolk -  Plymouth and Bristol,BOSTON,35,25025,Suffolk,Boston
+42,1,4,33,Norfolk -  Plymouth and Bristol,CANTON,50,25021,Norfolk,Canton
+43,1,4,33,Norfolk -  Plymouth and Bristol,EASTON,88,25005,Bristol,Easton
+44,1,4,33,Norfolk -  Plymouth and Bristol,EAST BRIDGEWATER,83,25023,Plymouth,East Bridgewater
+45,1,4,33,Norfolk -  Plymouth and Bristol,HOLBROOK,133,25021,Norfolk,Holbrook
+46,1,4,33,Norfolk -  Plymouth and Bristol,AVON,18,25021,Norfolk,Avon
+47,1,4,33,Norfolk -  Plymouth and Bristol,BROCKTON,44,25023,Plymouth,Brockton
+48,1,4,33,Norfolk -  Plymouth and Bristol,WEST BRIDGEWATER,322,25023,Plymouth,West Bridgewater
+49,1,4,33,Norfolk -  Plymouth and Bristol,STOUGHTON,285,25021,Norfolk,Stoughton
+50,1,4,33,Norfolk -  Plymouth and Bristol,SHARON,266,25021,Norfolk,Sharon
+51,1,4,33,Norfolk -  Plymouth and Bristol,MIDDLEBOROUGH,182,25023,Plymouth,Middleborough
+52,1,4,33,Norfolk -  Plymouth and Bristol,HALIFAX,118,25023,Plymouth,Halifax
+53,1,4,33,Norfolk -  Plymouth and Bristol,TAUNTON,293,25005,Bristol,Taunton
+54,1,4,33,Norfolk -  Plymouth and Bristol,RAYNHAM,245,25005,Bristol,Raynham
+55,1,4,33,Norfolk -  Plymouth and Bristol,BRIDGEWATER,42,25023,Plymouth,Bridgewater
+56,1,4,33,Norfolk -  Plymouth and Bristol,NORTON,218,25005,Bristol,Norton
+57,1,4,33,Norfolk -  Plymouth and Bristol,MANSFIELD,167,25005,Bristol,Mansfield
+58,1,5,37,First Bristol and Plymouth,MARION,169,25023,Plymouth,Marion
+59,1,5,37,First Bristol and Plymouth,ROCHESTER,250,25023,Plymouth,Rochester
+60,1,5,37,First Bristol and Plymouth,ACUSHNET,3,25005,Bristol,Acushnet
+61,1,5,37,First Bristol and Plymouth,WAREHAM,310,25023,Plymouth,Wareham
+62,1,5,37,First Bristol and Plymouth,MIDDLEBOROUGH,182,25023,Plymouth,Middleborough
+63,1,5,37,First Bristol and Plymouth,MATTAPOISETT,173,25023,Plymouth,Mattapoisett
+64,1,5,37,First Bristol and Plymouth,TAUNTON,293,25005,Bristol,Taunton
+65,1,5,37,First Bristol and Plymouth,WESTPORT,334,25005,Bristol,Westport
+66,1,5,37,First Bristol and Plymouth,SOMERSET,273,25005,Bristol,Somerset
+67,1,5,37,First Bristol and Plymouth,DIGHTON,76,25005,Bristol,Dighton
+68,1,5,37,First Bristol and Plymouth,FALL RIVER,95,25005,Bristol,Fall River
+69,1,5,37,First Bristol and Plymouth,NEW BEDFORD,201,25005,Bristol,New Bedford
+70,1,5,37,First Bristol and Plymouth,SEEKONK,265,25005,Bristol,Seekonk
+71,1,5,37,First Bristol and Plymouth,LAKEVILLE,146,25023,Plymouth,Lakeville
+72,1,5,37,First Bristol and Plymouth,SWANSEA,292,25005,Bristol,Swansea
+73,1,5,37,First Bristol and Plymouth,REHOBOTH,247,25005,Bristol,Rehoboth
+74,1,5,37,First Bristol and Plymouth,BERKLEY,27,25005,Bristol,Berkley
+75,1,5,37,First Bristol and Plymouth,DARTMOUTH,72,25005,Bristol,Dartmouth
+76,1,5,37,First Bristol and Plymouth,FREETOWN,102,25005,Bristol,Freetown
+77,1,6,38,Second Bristol and Plymouth,MARION,169,25023,Plymouth,Marion
+78,1,6,38,Second Bristol and Plymouth,ROCHESTER,250,25023,Plymouth,Rochester
+79,1,6,38,Second Bristol and Plymouth,ACUSHNET,3,25005,Bristol,Acushnet
+80,1,6,38,Second Bristol and Plymouth,FAIRHAVEN,94,25005,Bristol,Fairhaven
+81,1,6,38,Second Bristol and Plymouth,MATTAPOISETT,173,25023,Plymouth,Mattapoisett
+82,1,6,38,Second Bristol and Plymouth,WESTPORT,334,25005,Bristol,Westport
+83,1,6,38,Second Bristol and Plymouth,FALL RIVER,95,25005,Bristol,Fall River
+84,1,6,38,Second Bristol and Plymouth,NEW BEDFORD,201,25005,Bristol,New Bedford
+85,1,6,38,Second Bristol and Plymouth,DARTMOUTH,72,25005,Bristol,Dartmouth
+86,1,6,38,Second Bristol and Plymouth,FREETOWN,102,25005,Bristol,Freetown
+87,1,7,39,Plymouth and Barnstable,SANDWICH,261,25001,Barnstable,Sandwich
+88,1,7,39,Plymouth and Barnstable,BOURNE,36,25001,Barnstable,Bourne
+89,1,7,39,Plymouth and Barnstable,FALMOUTH,96,25001,Barnstable,Falmouth
+90,1,7,39,Plymouth and Barnstable,PLYMOUTH,239,25023,Plymouth,Plymouth
+91,1,7,39,Plymouth and Barnstable,BARNSTABLE,20,25001,Barnstable,Barnstable
+92,1,7,39,Plymouth and Barnstable,MASHPEE,172,25001,Barnstable,Mashpee
+93,1,7,39,Plymouth and Barnstable,KINGSTON,145,25023,Plymouth,Kingston
+94,1,7,39,Plymouth and Barnstable,PEMBROKE,231,25023,Plymouth,Pembroke
+95,1,7,39,Plymouth and Barnstable,MARSHFIELD,171,25023,Plymouth,Marshfield
+96,1,7,39,Plymouth and Barnstable,HANOVER,122,25023,Plymouth,Hanover
+97,1,7,39,Plymouth and Barnstable,DUXBURY,82,25023,Plymouth,Duxbury
+98,1,7,39,Plymouth and Barnstable,HANSON,123,25023,Plymouth,Hanson
+99,1,7,39,Plymouth and Barnstable,CARVER,52,25023,Plymouth,Carver
+100,1,7,39,Plymouth and Barnstable,WAREHAM,310,25023,Plymouth,Wareham
+101,1,7,39,Plymouth and Barnstable,PLYMPTON,240,25023,Plymouth,Plympton
+102,1,7,39,Plymouth and Barnstable,MIDDLEBOROUGH,182,25023,Plymouth,Middleborough
+103,1,7,39,Plymouth and Barnstable,HALIFAX,118,25023,Plymouth,Halifax
+104,1,8,40,Cape and Islands,BREWSTER,41,25001,Barnstable,Brewster
+105,1,8,40,Cape and Islands,NANTUCKET,197,25019,Nantucket,Nantucket
+106,1,8,40,Cape and Islands,HARWICH,126,25001,Barnstable,Harwich
+107,1,8,40,Cape and Islands,SANDWICH,261,25001,Barnstable,Sandwich
+108,1,8,40,Cape and Islands,EDGARTOWN,89,25007,Dukes,Edgartown
+109,1,8,40,Cape and Islands,YARMOUTH,351,25001,Barnstable,Yarmouth
+110,1,8,40,Cape and Islands,DENNIS,75,25001,Barnstable,Dennis
+111,1,8,40,Cape and Islands,OAK BLUFFS,221,25007,Dukes,Oak Bluffs
+112,1,8,40,Cape and Islands,ORLEANS,224,25001,Barnstable,Orleans
+113,1,8,40,Cape and Islands,WELLFLEET,318,25001,Barnstable,Wellfleet
+114,1,8,40,Cape and Islands,TISBURY,296,25007,Dukes,Tisbury
+115,1,8,40,Cape and Islands,TRURO,300,25001,Barnstable,Truro
+116,1,8,40,Cape and Islands,EASTHAM,86,25001,Barnstable,Eastham
+117,1,8,40,Cape and Islands,BARNSTABLE,20,25001,Barnstable,Barnstable
+118,1,8,40,Cape and Islands,MASHPEE,172,25001,Barnstable,Mashpee
+119,1,8,40,Cape and Islands,CHATHAM,55,25001,Barnstable,Chatham
+120,1,8,40,Cape and Islands,PROVINCETOWN,242,25001,Barnstable,Provincetown
+121,1,8,40,Cape and Islands,AQUINNAH,104,25007,Dukes,Aquinnah
+122,1,8,40,Cape and Islands,WEST TISBURY,327,25007,Dukes,West Tisbury
+123,1,8,40,Cape and Islands,GOSNOLD,109,25007,Dukes,Gosnold
+124,1,8,40,Cape and Islands,CHILMARK,62,25007,Dukes,Chilmark
+125,1,9,4,Hampden -  Hampshire and Worcester,NEW SALEM,204,25011,Franklin,New Salem
+126,1,9,4,Hampden -  Hampshire and Worcester,BRIMFIELD,43,25013,Hampden,Brimfield
+127,1,9,4,Hampden -  Hampshire and Worcester,WARREN,311,25027,Worcester,Warren
+128,1,9,4,Hampden -  Hampshire and Worcester,WARE,309,25015,Hampshire,Ware
+129,1,9,4,Hampden -  Hampshire and Worcester,WEST BROOKFIELD,323,25027,Worcester,West Brookfield
+130,1,9,4,Hampden -  Hampshire and Worcester,MONSON,191,25013,Hampden,Monson
+131,1,9,4,Hampden -  Hampshire and Worcester,PALMER,227,25013,Hampden,Palmer
+132,1,9,4,Hampden -  Hampshire and Worcester,BROOKFIELD,45,25027,Worcester,Brookfield
+133,1,9,4,Hampden -  Hampshire and Worcester,HOLYOKE,137,25013,Hampden,Holyoke
+134,1,9,4,Hampden -  Hampshire and Worcester,LONGMEADOW,159,25013,Hampden,Longmeadow
+135,1,9,4,Hampden -  Hampshire and Worcester,SOUTH HADLEY,275,25015,Hampshire,South Hadley
+136,1,9,4,Hampden -  Hampshire and Worcester,GRANBY,111,25015,Hampshire,Granby
+137,1,9,4,Hampden -  Hampshire and Worcester,PELHAM,230,25015,Hampshire,Pelham
+138,1,9,4,Hampden -  Hampshire and Worcester,HADLEY,117,25015,Hampshire,Hadley
+139,1,9,4,Hampden -  Hampshire and Worcester,AMHERST,8,25015,Hampshire,Amherst
+140,1,9,4,Hampden -  Hampshire and Worcester,BELCHERTOWN,24,25015,Hampshire,Belchertown
+141,1,9,4,Hampden -  Hampshire and Worcester,EAST LONGMEADOW,85,25013,Hampden,East Longmeadow
+142,1,9,4,Hampden -  Hampshire and Worcester,AGAWAM,5,25013,Hampden,Agawam
+143,1,9,4,Hampden -  Hampshire and Worcester,WILBRAHAM,339,25013,Hampden,Wilbraham
+144,1,9,4,Hampden -  Hampshire and Worcester,HAMPDEN,120,25013,Hampden,Hampden
+145,1,9,4,Hampden -  Hampshire and Worcester,CHICOPEE,61,25013,Hampden,Chicopee
+146,1,9,4,Hampden -  Hampshire and Worcester,LUDLOW,161,25013,Hampden,Ludlow
+147,1,9,4,Hampden -  Hampshire and Worcester,SPRINGFIELD,281,25013,Hampden,Springfield
+148,1,10,6,Worcester and Hampshire,LANCASTER,147,25027,Worcester,Lancaster
+149,1,10,6,Worcester and Hampshire,CLINTON,64,25027,Worcester,Clinton
+150,1,10,6,Worcester and Hampshire,HOLDEN,134,25027,Worcester,Holden
+151,1,10,6,Worcester and Hampshire,WESTMINSTER,332,25027,Worcester,Westminster
+152,1,10,6,Worcester and Hampshire,LEOMINSTER,153,25027,Worcester,Leominster
+153,1,10,6,Worcester and Hampshire,PRINCETON,241,25027,Worcester,Princeton
+154,1,10,6,Worcester and Hampshire,GARDNER,103,25027,Worcester,Gardner
+155,1,10,6,Worcester and Hampshire,STERLING,282,25027,Worcester,Sterling
+156,1,10,6,Worcester and Hampshire,RUTLAND,257,25027,Worcester,Rutland
+157,1,10,6,Worcester and Hampshire,ASHBURNHAM,11,25027,Worcester,Ashburnham
+158,1,10,6,Worcester and Hampshire,FITCHBURG,97,25027,Worcester,Fitchburg
+159,1,10,6,Worcester and Hampshire,WEST BOYLSTON,321,25027,Worcester,West Boylston
+160,1,10,6,Worcester and Hampshire,LEICESTER,151,25027,Worcester,Leicester
+161,1,10,6,Worcester and Hampshire,AUBURN,17,25027,Worcester,Auburn
+162,1,10,6,Worcester and Hampshire,PAXTON,228,25027,Worcester,Paxton
+163,1,10,6,Worcester and Hampshire,WORCESTER,348,25027,Worcester,Worcester
+164,1,10,6,Worcester and Hampshire,BOYLSTON,39,25027,Worcester,Boylston
+165,1,10,6,Worcester and Hampshire,OXFORD,226,25027,Worcester,Oxford
+166,1,10,6,Worcester and Hampshire,CHARLTON,54,25027,Worcester,Charlton
+167,1,10,6,Worcester and Hampshire,BARRE,21,25027,Worcester,Barre
+168,1,10,6,Worcester and Hampshire,PHILLIPSTON,235,25027,Worcester,Phillipston
+169,1,10,6,Worcester and Hampshire,TEMPLETON,294,25027,Worcester,Templeton
+170,1,10,6,Worcester and Hampshire,WINCHENDON,343,25027,Worcester,Winchendon
+171,1,10,6,Worcester and Hampshire,HARDWICK,124,25027,Worcester,Hardwick
+172,1,10,6,Worcester and Hampshire,OAKHAM,222,25027,Worcester,Oakham
+173,1,10,6,Worcester and Hampshire,ROYALSTON,255,25027,Worcester,Royalston
+174,1,10,6,Worcester and Hampshire,NEW BRAINTREE,202,25027,Worcester,New Braintree
+175,1,10,6,Worcester and Hampshire,HUBBARDSTON,140,25027,Worcester,Hubbardston
+176,1,10,6,Worcester and Hampshire,ATHOL,15,25027,Worcester,Athol
+177,1,10,6,Worcester and Hampshire,PETERSHAM,234,25027,Worcester,Petersham
+178,1,10,6,Worcester and Hampshire,NEW SALEM,204,25011,Franklin,New Salem
+179,1,10,6,Worcester and Hampshire,EAST BROOKFIELD,84,25027,Worcester,East Brookfield
+180,1,10,6,Worcester and Hampshire,BRIMFIELD,43,25013,Hampden,Brimfield
+181,1,10,6,Worcester and Hampshire,WARREN,311,25027,Worcester,Warren
+182,1,10,6,Worcester and Hampshire,WARE,309,25015,Hampshire,Ware
+183,1,10,6,Worcester and Hampshire,WEST BROOKFIELD,323,25027,Worcester,West Brookfield
+184,1,10,6,Worcester and Hampshire,PALMER,227,25013,Hampden,Palmer
+185,1,10,6,Worcester and Hampshire,NORTH BROOKFIELD,212,25027,Worcester,North Brookfield
+186,1,10,6,Worcester and Hampshire,STURBRIDGE,287,25027,Worcester,Sturbridge
+187,1,10,6,Worcester and Hampshire,SPENCER,280,25027,Worcester,Spencer
+188,1,10,6,Worcester and Hampshire,BROOKFIELD,45,25027,Worcester,Brookfield
+189,1,10,6,Worcester and Hampshire,BELCHERTOWN,24,25015,Hampshire,Belchertown
+190,1,11,9,First Worcester,MARLBOROUGH,170,25017,Middlesex,Marlborough
+191,1,11,9,First Worcester,HUDSON,141,25017,Middlesex,Hudson
+192,1,11,9,First Worcester,STOW,286,25017,Middlesex,Stow
+193,1,11,9,First Worcester,LANCASTER,147,25027,Worcester,Lancaster
+194,1,11,9,First Worcester,CLINTON,64,25027,Worcester,Clinton
+195,1,11,9,First Worcester,HOLDEN,134,25027,Worcester,Holden
+196,1,11,9,First Worcester,BOLTON,34,25027,Worcester,Bolton
+197,1,11,9,First Worcester,STERLING,282,25027,Worcester,Sterling
+198,1,11,9,First Worcester,WEST BOYLSTON,321,25027,Worcester,West Boylston
+199,1,11,9,First Worcester,BERLIN,28,25027,Worcester,Berlin
+200,1,11,9,First Worcester,HARVARD,125,25027,Worcester,Harvard
+201,1,11,9,First Worcester,NORTHBOROUGH,215,25027,Worcester,Northborough
+202,1,11,9,First Worcester,WESTBOROUGH,328,25027,Worcester,Westborough
+203,1,11,9,First Worcester,WORCESTER,348,25027,Worcester,Worcester
+204,1,11,9,First Worcester,BOYLSTON,39,25027,Worcester,Boylston
+205,1,11,9,First Worcester,SHREWSBURY,271,25027,Worcester,Shrewsbury
+206,1,12,10,Worcester and Middlesex,AYER,19,25017,Middlesex,Ayer
+207,1,12,10,Worcester and Middlesex,TYNGSBOROUGH,301,25017,Middlesex,Tyngsborough
+208,1,12,10,Worcester and Middlesex,WESTFORD,330,25017,Middlesex,Westford
+209,1,12,10,Worcester and Middlesex,GROTON,115,25017,Middlesex,Groton
+210,1,12,10,Worcester and Middlesex,CARLISLE,51,25017,Middlesex,Carlisle
+211,1,12,10,Worcester and Middlesex,DUNSTABLE,81,25017,Middlesex,Dunstable
+212,1,12,10,Worcester and Middlesex,LITTLETON,158,25017,Middlesex,Littleton
+213,1,12,10,Worcester and Middlesex,CHELMSFORD,56,25017,Middlesex,Chelmsford
+214,1,12,10,Worcester and Middlesex,ACTON,2,25017,Middlesex,Acton
+215,1,12,10,Worcester and Middlesex,PEPPERELL,232,25017,Middlesex,Pepperell
+216,1,12,10,Worcester and Middlesex,LANCASTER,147,25027,Worcester,Lancaster
+217,1,12,10,Worcester and Middlesex,LUNENBURG,162,25027,Worcester,Lunenburg
+218,1,12,10,Worcester and Middlesex,CLINTON,64,25027,Worcester,Clinton
+219,1,12,10,Worcester and Middlesex,WESTMINSTER,332,25027,Worcester,Westminster
+220,1,12,10,Worcester and Middlesex,LEOMINSTER,153,25027,Worcester,Leominster
+221,1,12,10,Worcester and Middlesex,PRINCETON,241,25027,Worcester,Princeton
+222,1,12,10,Worcester and Middlesex,BOLTON,34,25027,Worcester,Bolton
+223,1,12,10,Worcester and Middlesex,STERLING,282,25027,Worcester,Sterling
+224,1,12,10,Worcester and Middlesex,TOWNSEND,299,25017,Middlesex,Townsend
+225,1,12,10,Worcester and Middlesex,ASHBURNHAM,11,25027,Worcester,Ashburnham
+226,1,12,10,Worcester and Middlesex,FITCHBURG,97,25027,Worcester,Fitchburg
+227,1,12,10,Worcester and Middlesex,ASHBY,12,25017,Middlesex,Ashby
+228,1,12,10,Worcester and Middlesex,BERLIN,28,25027,Worcester,Berlin
+229,1,12,10,Worcester and Middlesex,HARVARD,125,25027,Worcester,Harvard
+230,1,12,10,Worcester and Middlesex,SHIRLEY,270,25017,Middlesex,Shirley
+231,1,12,10,Worcester and Middlesex,BOYLSTON,39,25027,Worcester,Boylston
+232,1,13,14,Norfolk -  Worcester and Middlesex,DEDHAM,73,25021,Norfolk,Dedham
+233,1,13,14,Norfolk -  Worcester and Middlesex,NEWTON,207,25017,Middlesex,Newton
+234,1,13,14,Norfolk -  Worcester and Middlesex,BOSTON,35,25025,Suffolk,Boston
+235,1,13,14,Norfolk -  Worcester and Middlesex,WESTWOOD,335,25021,Norfolk,Westwood
+236,1,13,14,Norfolk -  Worcester and Middlesex,MILLIS,187,25021,Norfolk,Millis
+237,1,13,14,Norfolk -  Worcester and Middlesex,NEEDHAM,199,25021,Norfolk,Needham
+238,1,13,14,Norfolk -  Worcester and Middlesex,WELLESLEY,317,25021,Norfolk,Wellesley
+239,1,13,14,Norfolk -  Worcester and Middlesex,MEDFIELD,175,25021,Norfolk,Medfield
+240,1,13,14,Norfolk -  Worcester and Middlesex,MEDWAY,177,25021,Norfolk,Medway
+241,1,13,14,Norfolk -  Worcester and Middlesex,NATICK,198,25017,Middlesex,Natick
+242,1,13,14,Norfolk -  Worcester and Middlesex,HOLLISTON,136,25017,Middlesex,Holliston
+243,1,13,14,Norfolk -  Worcester and Middlesex,ASHLAND,14,25017,Middlesex,Ashland
+244,1,13,14,Norfolk -  Worcester and Middlesex,MILFORD,185,25027,Worcester,Milford
+245,1,13,14,Norfolk -  Worcester and Middlesex,FRAMINGHAM,100,25017,Middlesex,Framingham
+246,1,13,14,Norfolk -  Worcester and Middlesex,HOPKINTON,139,25017,Middlesex,Hopkinton
+247,1,13,14,Norfolk -  Worcester and Middlesex,SHERBORN,269,25017,Middlesex,Sherborn
+248,1,13,14,Norfolk -  Worcester and Middlesex,DOVER,78,25021,Norfolk,Dover
+249,1,13,14,Norfolk -  Worcester and Middlesex,BELLINGHAM,25,25021,Norfolk,Bellingham
+250,1,13,14,Norfolk -  Worcester and Middlesex,MENDON,179,25027,Worcester,Mendon
+251,1,13,14,Norfolk -  Worcester and Middlesex,NORFOLK,208,25021,Norfolk,Norfolk
+252,1,13,14,Norfolk -  Worcester and Middlesex,BLACKSTONE,32,25027,Worcester,Blackstone
+253,1,13,14,Norfolk -  Worcester and Middlesex,HOPEDALE,138,25027,Worcester,Hopedale
+254,1,13,14,Norfolk -  Worcester and Middlesex,FOXBOROUGH,99,25021,Norfolk,Foxborough
+255,1,13,14,Norfolk -  Worcester and Middlesex,FRANKLIN,101,25021,Norfolk,Franklin
+256,1,13,14,Norfolk -  Worcester and Middlesex,WRENTHAM,350,25021,Norfolk,Wrentham
+257,1,13,14,Norfolk -  Worcester and Middlesex,WALPOLE,307,25021,Norfolk,Walpole
+258,1,13,14,Norfolk -  Worcester and Middlesex,NORTH ATTLEBOROUGH,211,25005,Bristol,North Attleborough
+259,1,13,14,Norfolk -  Worcester and Middlesex,PLAINVILLE,238,25021,Norfolk,Plainville
+260,1,13,14,Norfolk -  Worcester and Middlesex,MANSFIELD,167,25005,Bristol,Mansfield
+261,1,13,14,Norfolk -  Worcester and Middlesex,UPTON,303,25027,Worcester,Upton
+262,1,14,15,Third Middlesex,BURLINGTON,48,25017,Middlesex,Burlington
+263,1,14,15,Third Middlesex,BELMONT,26,25017,Middlesex,Belmont
+264,1,14,15,Third Middlesex,NEWTON,207,25017,Middlesex,Newton
+265,1,14,15,Third Middlesex,WATERTOWN,314,25017,Middlesex,Watertown
+266,1,14,15,Third Middlesex,WELLESLEY,317,25021,Norfolk,Wellesley
+267,1,14,15,Third Middlesex,NATICK,198,25017,Middlesex,Natick
+268,1,14,15,Third Middlesex,WESTON,333,25017,Middlesex,Weston
+269,1,14,15,Third Middlesex,WAYLAND,315,25017,Middlesex,Wayland
+270,1,14,15,Third Middlesex,WALTHAM,308,25017,Middlesex,Waltham
+271,1,14,15,Third Middlesex,SUDBURY,288,25017,Middlesex,Sudbury
+272,1,14,15,Third Middlesex,LEXINGTON,155,25017,Middlesex,Lexington
+273,1,14,15,Third Middlesex,TYNGSBOROUGH,301,25017,Middlesex,Tyngsborough
+274,1,14,15,Third Middlesex,CONCORD,67,25017,Middlesex,Concord
+275,1,14,15,Third Middlesex,BILLERICA,31,25017,Middlesex,Billerica
+276,1,14,15,Third Middlesex,WESTFORD,330,25017,Middlesex,Westford
+277,1,14,15,Third Middlesex,CARLISLE,51,25017,Middlesex,Carlisle
+278,1,14,15,Third Middlesex,CHELMSFORD,56,25017,Middlesex,Chelmsford
+279,1,14,15,Third Middlesex,LINCOLN,157,25017,Middlesex,Lincoln
+280,1,14,15,Third Middlesex,ACTON,2,25017,Middlesex,Acton
+281,1,14,15,Third Middlesex,BEDFORD,23,25017,Middlesex,Bedford
+282,1,14,15,Third Middlesex,LOWELL,160,25017,Middlesex,Lowell
+283,1,15,16,Fourth Middlesex,WILMINGTON,342,25017,Middlesex,Wilmington
+284,1,15,16,Fourth Middlesex,READING,246,25017,Middlesex,Reading
+285,1,15,16,Fourth Middlesex,BURLINGTON,48,25017,Middlesex,Burlington
+286,1,15,16,Fourth Middlesex,SOMERVILLE,274,25017,Middlesex,Somerville
+287,1,15,16,Fourth Middlesex,BELMONT,26,25017,Middlesex,Belmont
+288,1,15,16,Fourth Middlesex,ARLINGTON,10,25017,Middlesex,Arlington
+289,1,15,16,Fourth Middlesex,STONEHAM,284,25017,Middlesex,Stoneham
+290,1,15,16,Fourth Middlesex,WINCHESTER,344,25017,Middlesex,Winchester
+291,1,15,16,Fourth Middlesex,WOBURN,347,25017,Middlesex,Woburn
+292,1,15,16,Fourth Middlesex,CAMBRIDGE,49,25017,Middlesex,Cambridge
+293,1,15,16,Fourth Middlesex,LEXINGTON,155,25017,Middlesex,Lexington
+294,1,15,16,Fourth Middlesex,BILLERICA,31,25017,Middlesex,Billerica
+295,1,15,16,Fourth Middlesex,CARLISLE,51,25017,Middlesex,Carlisle
+296,1,15,16,Fourth Middlesex,CHELMSFORD,56,25017,Middlesex,Chelmsford
+297,1,15,16,Fourth Middlesex,TEWKSBURY,295,25017,Middlesex,Tewksbury
+298,1,15,16,Fourth Middlesex,BEDFORD,23,25017,Middlesex,Bedford
+299,1,15,16,Fourth Middlesex,LOWELL,160,25017,Middlesex,Lowell
+300,1,16,18,Norfolk and Suffolk,BROOKLINE,46,25021,Norfolk,Brookline
+301,1,16,18,Norfolk and Suffolk,DEDHAM,73,25021,Norfolk,Dedham
+302,1,16,18,Norfolk and Suffolk,MILTON,189,25021,Norfolk,Milton
+303,1,16,18,Norfolk and Suffolk,NEWTON,207,25017,Middlesex,Newton
+304,1,16,18,Norfolk and Suffolk,BOSTON,35,25025,Suffolk,Boston
+305,1,16,18,Norfolk and Suffolk,WESTWOOD,335,25021,Norfolk,Westwood
+306,1,16,18,Norfolk and Suffolk,CANTON,50,25021,Norfolk,Canton
+307,1,16,18,Norfolk and Suffolk,NORWOOD,220,25021,Norfolk,Norwood
+308,1,16,18,Norfolk and Suffolk,NEEDHAM,199,25021,Norfolk,Needham
+309,1,16,18,Norfolk and Suffolk,MEDFIELD,175,25021,Norfolk,Medfield
+310,1,16,18,Norfolk and Suffolk,DOVER,78,25021,Norfolk,Dover
+311,1,16,18,Norfolk and Suffolk,NORFOLK,208,25021,Norfolk,Norfolk
+312,1,16,18,Norfolk and Suffolk,FOXBOROUGH,99,25021,Norfolk,Foxborough
+313,1,16,18,Norfolk and Suffolk,WALPOLE,307,25021,Norfolk,Walpole
+314,1,16,18,Norfolk and Suffolk,SHARON,266,25021,Norfolk,Sharon
+315,1,17,21,First Essex and Middlesex,ESSEX,92,25009,Essex,Essex
+316,1,17,21,First Essex and Middlesex,GLOUCESTER,107,25009,Essex,Gloucester
+317,1,17,21,First Essex and Middlesex,HAMILTON,119,25009,Essex,Hamilton
+318,1,17,21,First Essex and Middlesex,ROWLEY,254,25009,Essex,Rowley
+319,1,17,21,First Essex and Middlesex,MANCHESTER,166,25009,Essex,Manchester
+320,1,17,21,First Essex and Middlesex,WENHAM,320,25009,Essex,Wenham
+321,1,17,21,First Essex and Middlesex,WEST NEWBURY,324,25009,Essex,West Newbury
+322,1,17,21,First Essex and Middlesex,SALISBURY,259,25009,Essex,Salisbury
+323,1,17,21,First Essex and Middlesex,NEWBURYPORT,206,25009,Essex,Newburyport
+324,1,17,21,First Essex and Middlesex,IPSWICH,144,25009,Essex,Ipswich
+325,1,17,21,First Essex and Middlesex,BEVERLY,30,25009,Essex,Beverly
+326,1,17,21,First Essex and Middlesex,NEWBURY,205,25009,Essex,Newbury
+327,1,17,21,First Essex and Middlesex,AMESBURY,7,25009,Essex,Amesbury
+328,1,17,21,First Essex and Middlesex,DANVERS,71,25009,Essex,Danvers
+329,1,17,21,First Essex and Middlesex,ROCKPORT,252,25009,Essex,Rockport
+330,1,17,21,First Essex and Middlesex,TOPSFIELD,298,25009,Essex,Topsfield
+331,1,17,21,First Essex and Middlesex,GROVELAND,116,25009,Essex,Groveland
+332,1,17,21,First Essex and Middlesex,WILMINGTON,342,25017,Middlesex,Wilmington
+333,1,17,21,First Essex and Middlesex,READING,246,25017,Middlesex,Reading
+334,1,17,21,First Essex and Middlesex,HAVERHILL,128,25009,Essex,Haverhill
+335,1,17,21,First Essex and Middlesex,GEORGETOWN,105,25009,Essex,Georgetown
+336,1,17,21,First Essex and Middlesex,MIDDLETON,184,25009,Essex,Middleton
+337,1,17,21,First Essex and Middlesex,LYNNFIELD,164,25009,Essex,Lynnfield
+338,1,17,21,First Essex and Middlesex,ANDOVER,9,25009,Essex,Andover
+339,1,17,21,First Essex and Middlesex,NORTH ANDOVER,210,25009,Essex,North Andover
+340,1,17,21,First Essex and Middlesex,BOXFORD,38,25009,Essex,Boxford
+341,1,17,21,First Essex and Middlesex,NORTH READING,213,25017,Middlesex,North Reading
+342,1,17,21,First Essex and Middlesex,PEABODY,229,25009,Essex,Peabody
+343,1,18,22,Second Essex,MANCHESTER,166,25009,Essex,Manchester
+344,1,18,22,Second Essex,WENHAM,320,25009,Essex,Wenham
+345,1,18,22,Second Essex,BEVERLY,30,25009,Essex,Beverly
+346,1,18,22,Second Essex,DANVERS,71,25009,Essex,Danvers
+347,1,18,22,Second Essex,TOPSFIELD,298,25009,Essex,Topsfield
+348,1,18,22,Second Essex,MIDDLETON,184,25009,Essex,Middleton
+349,1,18,22,Second Essex,LYNNFIELD,164,25009,Essex,Lynnfield
+350,1,18,22,Second Essex,PEABODY,229,25009,Essex,Peabody
+351,1,18,22,Second Essex,SWAMPSCOTT,291,25009,Essex,Swampscott
+352,1,18,22,Second Essex,SALEM,258,25009,Essex,Salem
+353,1,18,22,Second Essex,LYNN,163,25009,Essex,Lynn
+354,1,18,22,Second Essex,MARBLEHEAD,168,25009,Essex,Marblehead
+355,1,19,23,Fifth Middlesex,WILMINGTON,342,25017,Middlesex,Wilmington
+356,1,19,23,Fifth Middlesex,READING,246,25017,Middlesex,Reading
+357,1,19,23,Fifth Middlesex,LYNNFIELD,164,25009,Essex,Lynnfield
+358,1,19,23,Fifth Middlesex,NORTH READING,213,25017,Middlesex,North Reading
+359,1,19,23,Fifth Middlesex,EVERETT,93,25017,Middlesex,Everett
+360,1,19,23,Fifth Middlesex,MEDFORD,176,25017,Middlesex,Medford
+361,1,19,23,Fifth Middlesex,SAUGUS,262,25009,Essex,Saugus
+362,1,19,23,Fifth Middlesex,STONEHAM,284,25017,Middlesex,Stoneham
+363,1,19,23,Fifth Middlesex,WAKEFIELD,305,25017,Middlesex,Wakefield
+364,1,19,23,Fifth Middlesex,MELROSE,178,25017,Middlesex,Melrose
+365,1,19,23,Fifth Middlesex,WINCHESTER,344,25017,Middlesex,Winchester
+366,1,19,23,Fifth Middlesex,WOBURN,347,25017,Middlesex,Woburn
+367,1,19,23,Fifth Middlesex,REVERE,248,25025,Suffolk,Revere
+368,1,19,23,Fifth Middlesex,MALDEN,165,25017,Middlesex,Malden
+369,1,20,26,Middlesex and Suffolk,EVERETT,93,25017,Middlesex,Everett
+370,1,20,26,Middlesex and Suffolk,MEDFORD,176,25017,Middlesex,Medford
+371,1,20,26,Middlesex and Suffolk,SOMERVILLE,274,25017,Middlesex,Somerville
+372,1,20,26,Middlesex and Suffolk,CHELSEA,57,25025,Suffolk,Chelsea
+373,1,20,26,Middlesex and Suffolk,REVERE,248,25025,Suffolk,Revere
+374,1,20,26,Middlesex and Suffolk,MALDEN,165,25017,Middlesex,Malden
+375,1,20,26,Middlesex and Suffolk,CAMBRIDGE,49,25017,Middlesex,Cambridge
+376,1,20,26,Middlesex and Suffolk,BOSTON,35,25025,Suffolk,Boston
+377,1,21,27,Second Middlesex,EVERETT,93,25017,Middlesex,Everett
+378,1,21,27,Second Middlesex,MEDFORD,176,25017,Middlesex,Medford
+379,1,21,27,Second Middlesex,SOMERVILLE,274,25017,Middlesex,Somerville
+380,1,21,27,Second Middlesex,BELMONT,26,25017,Middlesex,Belmont
+381,1,21,27,Second Middlesex,ARLINGTON,10,25017,Middlesex,Arlington
+382,1,21,27,Second Middlesex,STONEHAM,284,25017,Middlesex,Stoneham
+383,1,21,27,Second Middlesex,WINCHESTER,344,25017,Middlesex,Winchester
+384,1,21,27,Second Middlesex,WOBURN,347,25017,Middlesex,Woburn
+385,1,21,27,Second Middlesex,MALDEN,165,25017,Middlesex,Malden
+386,1,21,27,Second Middlesex,CAMBRIDGE,49,25017,Middlesex,Cambridge
+387,1,21,27,Second Middlesex,BOSTON,35,25025,Suffolk,Boston
+388,1,21,27,Second Middlesex,LEXINGTON,155,25017,Middlesex,Lexington
+389,1,22,5,Hampshire -  Franklin and Worcester,WESTMINSTER,332,25027,Worcester,Westminster
+390,1,22,5,Hampshire -  Franklin and Worcester,GARDNER,103,25027,Worcester,Gardner
+391,1,22,5,Hampshire -  Franklin and Worcester,ASHBURNHAM,11,25027,Worcester,Ashburnham
+392,1,22,5,Hampshire -  Franklin and Worcester,FITCHBURG,97,25027,Worcester,Fitchburg
+393,1,22,5,Hampshire -  Franklin and Worcester,ASHBY,12,25017,Middlesex,Ashby
+394,1,22,5,Hampshire -  Franklin and Worcester,BARRE,21,25027,Worcester,Barre
+395,1,22,5,Hampshire -  Franklin and Worcester,WARWICK,312,25011,Franklin,Warwick
+396,1,22,5,Hampshire -  Franklin and Worcester,PHILLIPSTON,235,25027,Worcester,Phillipston
+397,1,22,5,Hampshire -  Franklin and Worcester,TEMPLETON,294,25027,Worcester,Templeton
+398,1,22,5,Hampshire -  Franklin and Worcester,ORANGE,223,25011,Franklin,Orange
+399,1,22,5,Hampshire -  Franklin and Worcester,WINCHENDON,343,25027,Worcester,Winchendon
+400,1,22,5,Hampshire -  Franklin and Worcester,HARDWICK,124,25027,Worcester,Hardwick
+401,1,22,5,Hampshire -  Franklin and Worcester,ROYALSTON,255,25027,Worcester,Royalston
+402,1,22,5,Hampshire -  Franklin and Worcester,ATHOL,15,25027,Worcester,Athol
+403,1,22,5,Hampshire -  Franklin and Worcester,PETERSHAM,234,25027,Worcester,Petersham
+404,1,22,5,Hampshire -  Franklin and Worcester,NEW SALEM,204,25011,Franklin,New Salem
+405,1,22,5,Hampshire -  Franklin and Worcester,WARE,309,25015,Hampshire,Ware
+406,1,22,5,Hampshire -  Franklin and Worcester,HOLYOKE,137,25013,Hampden,Holyoke
+407,1,22,5,Hampshire -  Franklin and Worcester,NORTHFIELD,217,25011,Franklin,Northfield
+408,1,22,5,Hampshire -  Franklin and Worcester,ERVING,91,25011,Franklin,Erving
+409,1,22,5,Hampshire -  Franklin and Worcester,CONWAY,68,25011,Franklin,Conway
+410,1,22,5,Hampshire -  Franklin and Worcester,BERNARDSTON,29,25011,Franklin,Bernardston
+411,1,22,5,Hampshire -  Franklin and Worcester,WHATELY,337,25011,Franklin,Whately
+412,1,22,5,Hampshire -  Franklin and Worcester,WILLIAMSBURG,340,25015,Hampshire,Williamsburg
+413,1,22,5,Hampshire -  Franklin and Worcester,NORTHAMPTON,214,25015,Hampshire,Northampton
+414,1,22,5,Hampshire -  Franklin and Worcester,EASTHAMPTON,87,25015,Hampshire,Easthampton
+415,1,22,5,Hampshire -  Franklin and Worcester,SOUTH HADLEY,275,25015,Hampshire,South Hadley
+416,1,22,5,Hampshire -  Franklin and Worcester,GRANBY,111,25015,Hampshire,Granby
+417,1,22,5,Hampshire -  Franklin and Worcester,PELHAM,230,25015,Hampshire,Pelham
+418,1,22,5,Hampshire -  Franklin and Worcester,HADLEY,117,25015,Hampshire,Hadley
+419,1,22,5,Hampshire -  Franklin and Worcester,GREENFIELD,114,25011,Franklin,Greenfield
+420,1,22,5,Hampshire -  Franklin and Worcester,LEVERETT,154,25011,Franklin,Leverett
+421,1,22,5,Hampshire -  Franklin and Worcester,AMHERST,8,25015,Hampshire,Amherst
+422,1,22,5,Hampshire -  Franklin and Worcester,BELCHERTOWN,24,25015,Hampshire,Belchertown
+423,1,22,5,Hampshire -  Franklin and Worcester,SUNDERLAND,289,25011,Franklin,Sunderland
+424,1,22,5,Hampshire -  Franklin and Worcester,SHUTESBURY,272,25011,Franklin,Shutesbury
+425,1,22,5,Hampshire -  Franklin and Worcester,SHELBURNE,268,25011,Franklin,Shelburne
+426,1,22,5,Hampshire -  Franklin and Worcester,GILL,106,25011,Franklin,Gill
+427,1,22,5,Hampshire -  Franklin and Worcester,HATFIELD,127,25015,Hampshire,Hatfield
+428,1,22,5,Hampshire -  Franklin and Worcester,DEERFIELD,74,25011,Franklin,Deerfield
+429,1,22,5,Hampshire -  Franklin and Worcester,MONTAGUE,192,25011,Franklin,Montague
+430,1,22,5,Hampshire -  Franklin and Worcester,WESTHAMPTON,331,25015,Hampshire,Westhampton
+431,1,22,5,Hampshire -  Franklin and Worcester,COLRAIN,66,25011,Franklin,Colrain
+432,1,22,5,Hampshire -  Franklin and Worcester,WENDELL,319,25011,Franklin,Wendell
+433,1,22,5,Hampshire -  Franklin and Worcester,LEYDEN,156,25011,Franklin,Leyden
+434,1,23,19,First Essex,METHUEN,181,25009,Essex,Methuen
+435,1,23,19,First Essex,LAWRENCE,149,25009,Essex,Lawrence
+436,1,23,19,First Essex,HAVERHILL,128,25009,Essex,Haverhill
+437,1,23,19,First Essex,ANDOVER,9,25009,Essex,Andover
+438,1,23,19,First Essex,NORTH ANDOVER,210,25009,Essex,North Andover
+439,1,23,19,First Essex,DRACUT,79,25017,Middlesex,Dracut
+440,1,24,34,Second Plymouth and Norfolk,RANDOLPH,244,25021,Norfolk,Randolph
+441,1,24,34,Second Plymouth and Norfolk,BRAINTREE,40,25021,Norfolk,Braintree
+442,1,24,34,Second Plymouth and Norfolk,EASTON,88,25005,Bristol,Easton
+443,1,24,34,Second Plymouth and Norfolk,EAST BRIDGEWATER,83,25023,Plymouth,East Bridgewater
+444,1,24,34,Second Plymouth and Norfolk,HOLBROOK,133,25021,Norfolk,Holbrook
+445,1,24,34,Second Plymouth and Norfolk,AVON,18,25021,Norfolk,Avon
+446,1,24,34,Second Plymouth and Norfolk,ABINGTON,1,25023,Plymouth,Abington
+447,1,24,34,Second Plymouth and Norfolk,WHITMAN,338,25023,Plymouth,Whitman
+448,1,24,34,Second Plymouth and Norfolk,BROCKTON,44,25023,Plymouth,Brockton
+449,1,24,34,Second Plymouth and Norfolk,ROCKLAND,251,25023,Plymouth,Rockland
+450,1,24,34,Second Plymouth and Norfolk,WEST BRIDGEWATER,322,25023,Plymouth,West Bridgewater
+451,1,24,34,Second Plymouth and Norfolk,STOUGHTON,285,25021,Norfolk,Stoughton
+452,1,24,34,Second Plymouth and Norfolk,PEMBROKE,231,25023,Plymouth,Pembroke
+453,1,24,34,Second Plymouth and Norfolk,HANOVER,122,25023,Plymouth,Hanover
+454,1,24,34,Second Plymouth and Norfolk,HANSON,123,25023,Plymouth,Hanson
+455,1,24,34,Second Plymouth and Norfolk,PLYMPTON,240,25023,Plymouth,Plympton
+456,1,24,34,Second Plymouth and Norfolk,MIDDLEBOROUGH,182,25023,Plymouth,Middleborough
+457,1,24,34,Second Plymouth and Norfolk,HALIFAX,118,25023,Plymouth,Halifax
+458,1,24,34,Second Plymouth and Norfolk,BRIDGEWATER,42,25023,Plymouth,Bridgewater
+459,1,25,29,Second Suffolk,BROOKLINE,46,25021,Norfolk,Brookline
+460,1,25,29,Second Suffolk,MILTON,189,25021,Norfolk,Milton
+461,1,25,29,Second Suffolk,BOSTON,35,25025,Suffolk,Boston
+462,1,26,35,Bristol and Norfolk,DEDHAM,73,25021,Norfolk,Dedham
+463,1,26,35,Bristol and Norfolk,RANDOLPH,244,25021,Norfolk,Randolph
+464,1,26,35,Bristol and Norfolk,MILTON,189,25021,Norfolk,Milton
+465,1,26,35,Bristol and Norfolk,BOSTON,35,25025,Suffolk,Boston
+466,1,26,35,Bristol and Norfolk,WESTWOOD,335,25021,Norfolk,Westwood
+467,1,26,35,Bristol and Norfolk,CANTON,50,25021,Norfolk,Canton
+468,1,26,35,Bristol and Norfolk,NORWOOD,220,25021,Norfolk,Norwood
+469,1,26,35,Bristol and Norfolk,EASTON,88,25005,Bristol,Easton
+470,1,26,35,Bristol and Norfolk,NORFOLK,208,25021,Norfolk,Norfolk
+471,1,26,35,Bristol and Norfolk,FOXBOROUGH,99,25021,Norfolk,Foxborough
+472,1,26,35,Bristol and Norfolk,WRENTHAM,350,25021,Norfolk,Wrentham
+473,1,26,35,Bristol and Norfolk,STOUGHTON,285,25021,Norfolk,Stoughton
+474,1,26,35,Bristol and Norfolk,WALPOLE,307,25021,Norfolk,Walpole
+475,1,26,35,Bristol and Norfolk,SHARON,266,25021,Norfolk,Sharon
+476,1,26,35,Bristol and Norfolk,TAUNTON,293,25005,Bristol,Taunton
+477,1,26,35,Bristol and Norfolk,NORTH ATTLEBOROUGH,211,25005,Bristol,North Attleborough
+478,1,26,35,Bristol and Norfolk,SEEKONK,265,25005,Bristol,Seekonk
+479,1,26,35,Bristol and Norfolk,PLAINVILLE,238,25021,Norfolk,Plainville
+480,1,26,35,Bristol and Norfolk,NORTON,218,25005,Bristol,Norton
+481,1,26,35,Bristol and Norfolk,MANSFIELD,167,25005,Bristol,Mansfield
+482,1,26,35,Bristol and Norfolk,REHOBOTH,247,25005,Bristol,Rehoboth
+483,1,26,35,Bristol and Norfolk,ATTLEBORO,16,25005,Bristol,Attleboro
+484,1,27,25,Third Suffolk,EVERETT,93,25017,Middlesex,Everett
+485,1,27,25,Third Suffolk,SAUGUS,262,25009,Essex,Saugus
+486,1,27,25,Third Suffolk,CHELSEA,57,25025,Suffolk,Chelsea
+487,1,27,25,Third Suffolk,MELROSE,178,25017,Middlesex,Melrose
+488,1,27,25,Third Suffolk,REVERE,248,25025,Suffolk,Revere
+489,1,27,25,Third Suffolk,MALDEN,165,25017,Middlesex,Malden
+490,1,27,25,Third Suffolk,CAMBRIDGE,49,25017,Middlesex,Cambridge
+491,1,27,25,Third Suffolk,WINTHROP,346,25025,Suffolk,Winthrop
+492,1,27,25,Third Suffolk,BOSTON,35,25025,Suffolk,Boston
+493,1,28,7,Worcester and Hampden,MILFORD,185,25027,Worcester,Milford
+494,1,28,7,Worcester and Hampden,HOPKINTON,139,25017,Middlesex,Hopkinton
+495,1,28,7,Worcester and Hampden,BELLINGHAM,25,25021,Norfolk,Bellingham
+496,1,28,7,Worcester and Hampden,MENDON,179,25027,Worcester,Mendon
+497,1,28,7,Worcester and Hampden,BLACKSTONE,32,25027,Worcester,Blackstone
+498,1,28,7,Worcester and Hampden,HOPEDALE,138,25027,Worcester,Hopedale
+499,1,28,7,Worcester and Hampden,SUTTON,290,25027,Worcester,Sutton
+500,1,28,7,Worcester and Hampden,LEICESTER,151,25027,Worcester,Leicester
+501,1,28,7,Worcester and Hampden,WEBSTER,316,25027,Worcester,Webster
+502,1,28,7,Worcester and Hampden,WESTBOROUGH,328,25027,Worcester,Westborough
+503,1,28,7,Worcester and Hampden,AUBURN,17,25027,Worcester,Auburn
+504,1,28,7,Worcester and Hampden,DOUGLAS,77,25027,Worcester,Douglas
+505,1,28,7,Worcester and Hampden,UPTON,303,25027,Worcester,Upton
+506,1,28,7,Worcester and Hampden,NORTHBRIDGE,216,25027,Worcester,Northbridge
+507,1,28,7,Worcester and Hampden,MILLVILLE,188,25027,Worcester,Millville
+508,1,28,7,Worcester and Hampden,MILLBURY,186,25027,Worcester,Millbury
+509,1,28,7,Worcester and Hampden,DUDLEY,80,25027,Worcester,Dudley
+510,1,28,7,Worcester and Hampden,UXBRIDGE,304,25027,Worcester,Uxbridge
+511,1,28,7,Worcester and Hampden,OXFORD,226,25027,Worcester,Oxford
+512,1,28,7,Worcester and Hampden,CHARLTON,54,25027,Worcester,Charlton
+513,1,28,7,Worcester and Hampden,GRAFTON,110,25027,Worcester,Grafton
+514,1,28,7,Worcester and Hampden,EAST BROOKFIELD,84,25027,Worcester,East Brookfield
+515,1,28,7,Worcester and Hampden,BRIMFIELD,43,25013,Hampden,Brimfield
+516,1,28,7,Worcester and Hampden,WARREN,311,25027,Worcester,Warren
+517,1,28,7,Worcester and Hampden,HOLLAND,135,25013,Hampden,Holland
+518,1,28,7,Worcester and Hampden,MONSON,191,25013,Hampden,Monson
+519,1,28,7,Worcester and Hampden,WALES,306,25013,Hampden,Wales
+520,1,28,7,Worcester and Hampden,PALMER,227,25013,Hampden,Palmer
+521,1,28,7,Worcester and Hampden,STURBRIDGE,287,25027,Worcester,Sturbridge
+522,1,28,7,Worcester and Hampden,SPENCER,280,25027,Worcester,Spencer
+523,1,28,7,Worcester and Hampden,BROOKFIELD,45,25027,Worcester,Brookfield
+524,1,28,7,Worcester and Hampden,SOUTHBRIDGE,278,25027,Worcester,Southbridge
+525,1,28,7,Worcester and Hampden,WILBRAHAM,339,25013,Hampden,Wilbraham
+526,1,28,7,Worcester and Hampden,HAMPDEN,120,25013,Hampden,Hampden
+527,1,29,13,Middlesex and Norfolk,MILLIS,187,25021,Norfolk,Millis
+528,1,29,13,Middlesex and Norfolk,SOUTHBOROUGH,277,25027,Worcester,Southborough
+529,1,29,13,Middlesex and Norfolk,MARLBOROUGH,170,25017,Middlesex,Marlborough
+530,1,29,13,Middlesex and Norfolk,WELLESLEY,317,25021,Norfolk,Wellesley
+531,1,29,13,Middlesex and Norfolk,MEDWAY,177,25021,Norfolk,Medway
+532,1,29,13,Middlesex and Norfolk,NATICK,198,25017,Middlesex,Natick
+533,1,29,13,Middlesex and Norfolk,HOLLISTON,136,25017,Middlesex,Holliston
+534,1,29,13,Middlesex and Norfolk,WESTON,333,25017,Middlesex,Weston
+535,1,29,13,Middlesex and Norfolk,ASHLAND,14,25017,Middlesex,Ashland
+536,1,29,13,Middlesex and Norfolk,MILFORD,185,25027,Worcester,Milford
+537,1,29,13,Middlesex and Norfolk,FRAMINGHAM,100,25017,Middlesex,Framingham
+538,1,29,13,Middlesex and Norfolk,WAYLAND,315,25017,Middlesex,Wayland
+539,1,29,13,Middlesex and Norfolk,SUDBURY,288,25017,Middlesex,Sudbury
+540,1,29,13,Middlesex and Norfolk,HOPKINTON,139,25017,Middlesex,Hopkinton
+541,1,29,13,Middlesex and Norfolk,SHERBORN,269,25017,Middlesex,Sherborn
+542,1,29,13,Middlesex and Norfolk,DOVER,78,25021,Norfolk,Dover
+543,1,29,13,Middlesex and Norfolk,BELLINGHAM,25,25021,Norfolk,Bellingham
+544,1,29,13,Middlesex and Norfolk,NORFOLK,208,25021,Norfolk,Norfolk
+545,1,29,13,Middlesex and Norfolk,FRANKLIN,101,25021,Norfolk,Franklin
+546,1,29,13,Middlesex and Norfolk,WESTBOROUGH,328,25027,Worcester,Westborough
+547,1,29,13,Middlesex and Norfolk,UPTON,303,25027,Worcester,Upton
+548,1,30,20,Second Essex and Middlesex,SALISBURY,259,25009,Essex,Salisbury
+549,1,30,20,Second Essex and Middlesex,AMESBURY,7,25009,Essex,Amesbury
+550,1,30,20,Second Essex and Middlesex,METHUEN,181,25009,Essex,Methuen
+551,1,30,20,Second Essex and Middlesex,GROVELAND,116,25009,Essex,Groveland
+552,1,30,20,Second Essex and Middlesex,WILMINGTON,342,25017,Middlesex,Wilmington
+553,1,30,20,Second Essex and Middlesex,LAWRENCE,149,25009,Essex,Lawrence
+554,1,30,20,Second Essex and Middlesex,READING,246,25017,Middlesex,Reading
+555,1,30,20,Second Essex and Middlesex,HAVERHILL,128,25009,Essex,Haverhill
+556,1,30,20,Second Essex and Middlesex,MERRIMAC,180,25009,Essex,Merrimac
+557,1,30,20,Second Essex and Middlesex,ANDOVER,9,25009,Essex,Andover
+558,1,30,20,Second Essex and Middlesex,NORTH ANDOVER,210,25009,Essex,North Andover
+559,1,30,20,Second Essex and Middlesex,BOXFORD,38,25009,Essex,Boxford
+560,1,30,20,Second Essex and Middlesex,NORTH READING,213,25017,Middlesex,North Reading
+561,1,30,20,Second Essex and Middlesex,BURLINGTON,48,25017,Middlesex,Burlington
+562,1,30,20,Second Essex and Middlesex,WOBURN,347,25017,Middlesex,Woburn
+563,1,30,20,Second Essex and Middlesex,BILLERICA,31,25017,Middlesex,Billerica
+564,1,30,20,Second Essex and Middlesex,TEWKSBURY,295,25017,Middlesex,Tewksbury
+565,1,30,20,Second Essex and Middlesex,LOWELL,160,25017,Middlesex,Lowell
+566,1,31,28,Suffolk and Middlesex,BELMONT,26,25017,Middlesex,Belmont
+567,1,31,28,Suffolk and Middlesex,ARLINGTON,10,25017,Middlesex,Arlington
+568,1,31,28,Suffolk and Middlesex,CAMBRIDGE,49,25017,Middlesex,Cambridge
+569,1,31,28,Suffolk and Middlesex,BROOKLINE,46,25021,Norfolk,Brookline
+570,1,31,28,Suffolk and Middlesex,NEWTON,207,25017,Middlesex,Newton
+571,1,31,28,Suffolk and Middlesex,BOSTON,35,25025,Suffolk,Boston
+572,1,31,28,Suffolk and Middlesex,WATERTOWN,314,25017,Middlesex,Watertown
+573,1,31,28,Suffolk and Middlesex,WALTHAM,308,25017,Middlesex,Waltham
+574,1,31,28,Suffolk and Middlesex,LEXINGTON,155,25017,Middlesex,Lexington
+575,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,SOUTHAMPTON,276,25015,Hampshire,Southampton
+576,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,LENOX,152,25003,Berkshire,Lenox
+577,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,MONTGOMERY,194,25013,Hampden,Montgomery
+578,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,CHESTERFIELD,60,25015,Hampshire,Chesterfield
+579,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,HAWLEY,129,25011,Franklin,Hawley
+580,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,ROWE,253,25011,Franklin,Rowe
+581,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,ASHFIELD,13,25011,Franklin,Ashfield
+582,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,LEE,150,25003,Berkshire,Lee
+583,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,CONWAY,68,25011,Franklin,Conway
+584,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,MONROE,190,25011,Franklin,Monroe
+585,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,NEW MARLBOROUGH,203,25003,Berkshire,New Marlborough
+586,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,PITTSFIELD,236,25003,Berkshire,Pittsfield
+587,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,MOUNT WASHINGTON,195,25003,Berkshire,Mount Washington
+588,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,HANCOCK,121,25003,Berkshire,Hancock
+589,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,CHESHIRE,58,25003,Berkshire,Cheshire
+590,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,CHESTER,59,25013,Hampden,Chester
+591,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,RUSSELL,256,25013,Hampden,Russell
+592,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,WHATELY,337,25011,Franklin,Whately
+593,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,WILLIAMSBURG,340,25015,Hampshire,Williamsburg
+594,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,MIDDLEFIELD,183,25015,Hampshire,Middlefield
+595,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,SOUTHWICK,279,25013,Hampden,Southwick
+596,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,BLANDFORD,33,25013,Hampden,Blandford
+597,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,NORTHAMPTON,214,25015,Hampshire,Northampton
+598,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,EASTHAMPTON,87,25015,Hampshire,Easthampton
+599,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,OTIS,225,25003,Berkshire,Otis
+600,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,EGREMONT,90,25003,Berkshire,Egremont
+601,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,WORTHINGTON,349,25015,Hampshire,Worthington
+602,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,PLAINFIELD,237,25015,Hampshire,Plainfield
+603,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,GOSHEN,108,25015,Hampshire,Goshen
+604,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,CUMMINGTON,69,25015,Hampshire,Cummington
+605,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,GRANVILLE,112,25013,Hampden,Granville
+606,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,PERU,233,25003,Berkshire,Peru
+607,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,GREENFIELD,114,25011,Franklin,Greenfield
+608,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,HEATH,130,25011,Franklin,Heath
+609,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,NORTH ADAMS,209,25003,Berkshire,North Adams
+610,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,LANESBOROUGH,148,25003,Berkshire,Lanesborough
+611,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,STOCKBRIDGE,283,25003,Berkshire,Stockbridge
+612,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,DALTON,70,25003,Berkshire,Dalton
+613,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,WINDSOR,345,25003,Berkshire,Windsor
+614,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,WEST STOCKBRIDGE,326,25003,Berkshire,West Stockbridge
+615,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,HINSDALE,132,25003,Berkshire,Hinsdale
+616,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,SANDISFIELD,260,25003,Berkshire,Sandisfield
+617,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,TYRINGHAM,302,25003,Berkshire,Tyringham
+618,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,SUNDERLAND,289,25011,Franklin,Sunderland
+619,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,AGAWAM,5,25013,Hampden,Agawam
+620,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,SHELBURNE,268,25011,Franklin,Shelburne
+621,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,FLORIDA,98,25003,Berkshire,Florida
+622,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,CLARKSBURG,63,25003,Berkshire,Clarksburg
+623,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,SAVOY,263,25003,Berkshire,Savoy
+624,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,WILLIAMSTOWN,341,25003,Berkshire,Williamstown
+625,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,WESTFIELD,329,25013,Hampden,Westfield
+626,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,HATFIELD,127,25015,Hampshire,Hatfield
+627,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,BUCKLAND,47,25011,Franklin,Buckland
+628,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,ALFORD,6,25003,Berkshire,Alford
+629,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,DEERFIELD,74,25011,Franklin,Deerfield
+630,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,WESTHAMPTON,331,25015,Hampshire,Westhampton
+631,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,TOLLAND,297,25013,Hampden,Tolland
+632,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,ADAMS,4,25003,Berkshire,Adams
+633,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,RICHMOND,249,25003,Berkshire,Richmond
+634,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,WASHINGTON,313,25003,Berkshire,Washington
+635,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,MONTEREY,193,25003,Berkshire,Monterey
+636,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,NEW ASHFORD,200,25003,Berkshire,New Ashford
+637,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,COLRAIN,66,25011,Franklin,Colrain
+638,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,SHEFFIELD,267,25003,Berkshire,Sheffield
+639,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,BECKET,22,25003,Berkshire,Becket
+640,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,GREAT BARRINGTON,113,25003,Berkshire,Great Barrington
+641,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,CHARLEMONT,53,25011,Franklin,Charlemont
+642,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,LEYDEN,156,25011,Franklin,Leyden
+643,1,32,1,Berkshire -  Hampden -  Franklin and Hampshire,HUNTINGTON,143,25015,Hampshire,Huntington
+644,1,33,24,Third Essex,READING,246,25017,Middlesex,Reading
+645,1,33,24,Third Essex,LYNNFIELD,164,25009,Essex,Lynnfield
+646,1,33,24,Third Essex,NORTH READING,213,25017,Middlesex,North Reading
+647,1,33,24,Third Essex,PEABODY,229,25009,Essex,Peabody
+648,1,33,24,Third Essex,SAUGUS,262,25009,Essex,Saugus
+649,1,33,24,Third Essex,SWAMPSCOTT,291,25009,Essex,Swampscott
+650,1,33,24,Third Essex,SALEM,258,25009,Essex,Salem
+651,1,33,24,Third Essex,LYNN,163,25009,Essex,Lynn
+652,1,33,24,Third Essex,MARBLEHEAD,168,25009,Essex,Marblehead
+653,1,33,24,Third Essex,NAHANT,196,25009,Essex,Nahant
+654,1,33,24,Third Essex,WAKEFIELD,305,25017,Middlesex,Wakefield
+655,1,33,24,Third Essex,MELROSE,178,25017,Middlesex,Melrose
+656,1,33,24,Third Essex,REVERE,248,25025,Suffolk,Revere
+657,1,34,12,Middlesex and Worcester,SOUTHBOROUGH,277,25027,Worcester,Southborough
+658,1,34,12,Middlesex and Worcester,MARLBOROUGH,170,25017,Middlesex,Marlborough
+659,1,34,12,Middlesex and Worcester,HUDSON,141,25017,Middlesex,Hudson
+660,1,34,12,Middlesex and Worcester,NATICK,198,25017,Middlesex,Natick
+661,1,34,12,Middlesex and Worcester,WESTON,333,25017,Middlesex,Weston
+662,1,34,12,Middlesex and Worcester,ASHLAND,14,25017,Middlesex,Ashland
+663,1,34,12,Middlesex and Worcester,FRAMINGHAM,100,25017,Middlesex,Framingham
+664,1,34,12,Middlesex and Worcester,WAYLAND,315,25017,Middlesex,Wayland
+665,1,34,12,Middlesex and Worcester,SUDBURY,288,25017,Middlesex,Sudbury
+666,1,34,12,Middlesex and Worcester,HOPKINTON,139,25017,Middlesex,Hopkinton
+667,1,34,12,Middlesex and Worcester,AYER,19,25017,Middlesex,Ayer
+668,1,34,12,Middlesex and Worcester,CONCORD,67,25017,Middlesex,Concord
+669,1,34,12,Middlesex and Worcester,WESTFORD,330,25017,Middlesex,Westford
+670,1,34,12,Middlesex and Worcester,GROTON,115,25017,Middlesex,Groton
+671,1,34,12,Middlesex and Worcester,CARLISLE,51,25017,Middlesex,Carlisle
+672,1,34,12,Middlesex and Worcester,LITTLETON,158,25017,Middlesex,Littleton
+673,1,34,12,Middlesex and Worcester,STOW,286,25017,Middlesex,Stow
+674,1,34,12,Middlesex and Worcester,LINCOLN,157,25017,Middlesex,Lincoln
+675,1,34,12,Middlesex and Worcester,ACTON,2,25017,Middlesex,Acton
+676,1,34,12,Middlesex and Worcester,MAYNARD,174,25017,Middlesex,Maynard
+677,1,34,12,Middlesex and Worcester,BOXBOROUGH,37,25017,Middlesex,Boxborough
+678,1,34,12,Middlesex and Worcester,LANCASTER,147,25027,Worcester,Lancaster
+679,1,34,12,Middlesex and Worcester,BOLTON,34,25027,Worcester,Bolton
+680,1,34,12,Middlesex and Worcester,BERLIN,28,25027,Worcester,Berlin
+681,1,34,12,Middlesex and Worcester,HARVARD,125,25027,Worcester,Harvard
+682,1,34,12,Middlesex and Worcester,SHIRLEY,270,25017,Middlesex,Shirley
+683,1,34,12,Middlesex and Worcester,NORTHBOROUGH,215,25027,Worcester,Northborough
+684,1,34,12,Middlesex and Worcester,WESTBOROUGH,328,25027,Worcester,Westborough
+685,1,35,3,Hampden,HOLYOKE,137,25013,Hampden,Holyoke
+686,1,35,3,Hampden,WEST SPRINGFIELD,325,25013,Hampden,West Springfield
+687,1,35,3,Hampden,EAST LONGMEADOW,85,25013,Hampden,East Longmeadow
+688,1,35,3,Hampden,AGAWAM,5,25013,Hampden,Agawam
+689,1,35,3,Hampden,WILBRAHAM,339,25013,Hampden,Wilbraham
+690,1,35,3,Hampden,CHICOPEE,61,25013,Hampden,Chicopee
+691,1,35,3,Hampden,LUDLOW,161,25013,Hampden,Ludlow
+692,1,35,3,Hampden,SPRINGFIELD,281,25013,Hampden,Springfield
+693,1,36,11,First Middlesex,METHUEN,181,25009,Essex,Methuen
+694,1,36,11,First Middlesex,TYNGSBOROUGH,301,25017,Middlesex,Tyngsborough
+695,1,36,11,First Middlesex,BILLERICA,31,25017,Middlesex,Billerica
+696,1,36,11,First Middlesex,WESTFORD,330,25017,Middlesex,Westford
+697,1,36,11,First Middlesex,GROTON,115,25017,Middlesex,Groton
+698,1,36,11,First Middlesex,DUNSTABLE,81,25017,Middlesex,Dunstable
+699,1,36,11,First Middlesex,CHELMSFORD,56,25017,Middlesex,Chelmsford
+700,1,36,11,First Middlesex,DRACUT,79,25017,Middlesex,Dracut
+701,1,36,11,First Middlesex,TEWKSBURY,295,25017,Middlesex,Tewksbury
+702,1,36,11,First Middlesex,LOWELL,160,25017,Middlesex,Lowell
+703,1,36,11,First Middlesex,PEPPERELL,232,25017,Middlesex,Pepperell
+704,1,36,11,First Middlesex,TOWNSEND,299,25017,Middlesex,Townsend
+705,1,37,8,Second Worcester,SOUTHBOROUGH,277,25027,Worcester,Southborough
+706,1,37,8,Second Worcester,HOPKINTON,139,25017,Middlesex,Hopkinton
+707,1,37,8,Second Worcester,WEST BOYLSTON,321,25027,Worcester,West Boylston
+708,1,37,8,Second Worcester,SUTTON,290,25027,Worcester,Sutton
+709,1,37,8,Second Worcester,LEICESTER,151,25027,Worcester,Leicester
+710,1,37,8,Second Worcester,NORTHBOROUGH,215,25027,Worcester,Northborough
+711,1,37,8,Second Worcester,WESTBOROUGH,328,25027,Worcester,Westborough
+712,1,37,8,Second Worcester,AUBURN,17,25027,Worcester,Auburn
+713,1,37,8,Second Worcester,UPTON,303,25027,Worcester,Upton
+714,1,37,8,Second Worcester,NORTHBRIDGE,216,25027,Worcester,Northbridge
+715,1,37,8,Second Worcester,WORCESTER,348,25027,Worcester,Worcester
+716,1,37,8,Second Worcester,MILLBURY,186,25027,Worcester,Millbury
+717,1,37,8,Second Worcester,BOYLSTON,39,25027,Worcester,Boylston
+718,1,37,8,Second Worcester,OXFORD,226,25027,Worcester,Oxford
+719,1,37,8,Second Worcester,SHREWSBURY,271,25027,Worcester,Shrewsbury
+720,1,37,8,Second Worcester,GRAFTON,110,25027,Worcester,Grafton
+721,1,38,36,Third Bristol and Plymouth,BOURNE,36,25001,Barnstable,Bourne
+722,1,38,36,Third Bristol and Plymouth,PLYMOUTH,239,25023,Plymouth,Plymouth
+723,1,38,36,Third Bristol and Plymouth,EASTON,88,25005,Bristol,Easton
+724,1,38,36,Third Bristol and Plymouth,MARION,169,25023,Plymouth,Marion
+725,1,38,36,Third Bristol and Plymouth,KINGSTON,145,25023,Plymouth,Kingston
+726,1,38,36,Third Bristol and Plymouth,ROCHESTER,250,25023,Plymouth,Rochester
+727,1,38,36,Third Bristol and Plymouth,CARVER,52,25023,Plymouth,Carver
+728,1,38,36,Third Bristol and Plymouth,WAREHAM,310,25023,Plymouth,Wareham
+729,1,38,36,Third Bristol and Plymouth,PLYMPTON,240,25023,Plymouth,Plympton
+730,1,38,36,Third Bristol and Plymouth,MIDDLEBOROUGH,182,25023,Plymouth,Middleborough
+731,1,38,36,Third Bristol and Plymouth,HALIFAX,118,25023,Plymouth,Halifax
+732,1,38,36,Third Bristol and Plymouth,MATTAPOISETT,173,25023,Plymouth,Mattapoisett
+733,1,38,36,Third Bristol and Plymouth,TAUNTON,293,25005,Bristol,Taunton
+734,1,38,36,Third Bristol and Plymouth,RAYNHAM,245,25005,Bristol,Raynham
+735,1,38,36,Third Bristol and Plymouth,SOMERSET,273,25005,Bristol,Somerset
+736,1,38,36,Third Bristol and Plymouth,DIGHTON,76,25005,Bristol,Dighton
+737,1,38,36,Third Bristol and Plymouth,BRIDGEWATER,42,25023,Plymouth,Bridgewater
+738,1,38,36,Third Bristol and Plymouth,SEEKONK,265,25005,Bristol,Seekonk
+739,1,38,36,Third Bristol and Plymouth,LAKEVILLE,146,25023,Plymouth,Lakeville
+740,1,38,36,Third Bristol and Plymouth,NORTON,218,25005,Bristol,Norton
+741,1,38,36,Third Bristol and Plymouth,SWANSEA,292,25005,Bristol,Swansea
+742,1,38,36,Third Bristol and Plymouth,REHOBOTH,247,25005,Bristol,Rehoboth
+743,1,38,36,Third Bristol and Plymouth,BERKLEY,27,25005,Bristol,Berkley
+744,1,38,36,Third Bristol and Plymouth,FREETOWN,102,25005,Bristol,Freetown
+745,1,38,36,Third Bristol and Plymouth,ATTLEBORO,16,25005,Bristol,Attleboro
+746,1,39,17,Norfolk and Middlesex,BROOKLINE,46,25021,Norfolk,Brookline
+747,1,39,17,Norfolk and Middlesex,NEWTON,207,25017,Middlesex,Newton
+748,1,39,17,Norfolk and Middlesex,BOSTON,35,25025,Suffolk,Boston
+749,1,39,17,Norfolk and Middlesex,WATERTOWN,314,25017,Middlesex,Watertown
+750,1,39,17,Norfolk and Middlesex,NEEDHAM,199,25021,Norfolk,Needham
+751,1,39,17,Norfolk and Middlesex,WELLESLEY,317,25021,Norfolk,Wellesley
+752,1,39,17,Norfolk and Middlesex,NATICK,198,25017,Middlesex,Natick
+753,1,39,17,Norfolk and Middlesex,WESTON,333,25017,Middlesex,Weston
+754,1,39,17,Norfolk and Middlesex,WALTHAM,308,25017,Middlesex,Waltham
+755,1,39,17,Norfolk and Middlesex,DOVER,78,25021,Norfolk,Dover
+756,1,40,2,Hampden and Hampshire,SOUTHAMPTON,276,25015,Hampshire,Southampton
+757,1,40,2,Hampden and Hampshire,HOLYOKE,137,25013,Hampden,Holyoke
+758,1,40,2,Hampden and Hampshire,MONTGOMERY,194,25013,Hampden,Montgomery
+759,1,40,2,Hampden and Hampshire,LONGMEADOW,159,25013,Hampden,Longmeadow
+760,1,40,2,Hampden and Hampshire,RUSSELL,256,25013,Hampden,Russell
+761,1,40,2,Hampden and Hampshire,SOUTHWICK,279,25013,Hampden,Southwick
+762,1,40,2,Hampden and Hampshire,BLANDFORD,33,25013,Hampden,Blandford
+763,1,40,2,Hampden and Hampshire,NORTHAMPTON,214,25015,Hampshire,Northampton
+764,1,40,2,Hampden and Hampshire,EASTHAMPTON,87,25015,Hampshire,Easthampton
+765,1,40,2,Hampden and Hampshire,SOUTH HADLEY,275,25015,Hampshire,South Hadley
+766,1,40,2,Hampden and Hampshire,GRANVILLE,112,25013,Hampden,Granville
+767,1,40,2,Hampden and Hampshire,WEST SPRINGFIELD,325,25013,Hampden,West Springfield
+768,1,40,2,Hampden and Hampshire,HADLEY,117,25015,Hampshire,Hadley
+769,1,40,2,Hampden and Hampshire,AGAWAM,5,25013,Hampden,Agawam
+770,1,40,2,Hampden and Hampshire,WESTFIELD,329,25013,Hampden,Westfield
+771,1,40,2,Hampden and Hampshire,WESTHAMPTON,331,25015,Hampshire,Westhampton
+772,1,40,2,Hampden and Hampshire,CHICOPEE,61,25013,Hampden,Chicopee
+773,1,40,2,Hampden and Hampshire,SPRINGFIELD,281,25013,Hampden,Springfield
+774,1,40,2,Hampden and Hampshire,HUNTINGTON,143,25015,Hampshire,Huntington
