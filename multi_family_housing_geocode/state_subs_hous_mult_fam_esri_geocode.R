@@ -13,7 +13,7 @@ library(tidycensus)
 #updated 2024-04-24
 
 # to geocode points for multi family building addresses 
-# airtable: https://airtable.com/appOJcXh3ZWTq3UY7/tbl8Z3tNwv6peE0Yr/viwQJXHkKTQKLmtUt?blocks=bipHxsN8jyjmIQCje
+# source on airtable: https://airtable.com/appOJcXh3ZWTq3UY7/tbl8Z3tNwv6peE0Yr/viwQJXHkKTQKLmtUt?blocks=bipHxsN8jyjmIQCje
 # tab:  State Subsidized Public Housing - DEV
 # view:  All Fields
 
@@ -22,7 +22,7 @@ library(tidycensus)
 input_path = "H:/0_PROJECTS/2024_mult_fam_bldg_geocode/input/"
 exp_path = "H:/0_PROJECTS/2024_mult_fam_bldg_geocode/output/"
 
-### REQUIRED:  RAW DATA FILENAME
+### REQUIRED:  RAW DATA FILENAME AND COLUMNS TO BE RENAMED !!!
 # downloaded from above airtable view with date suffix in filename
 # CHANGE Field name from City/Town to City BEFORE READING csv, change Record ID to Record_ID
 
@@ -166,13 +166,8 @@ overlay <- st_join(assets_pts, tracts_base, join = st_within)
 
 # ggplot(overlay) + geom_sf()
 
-rm(overlay,join1)
-
-
-
 # export overlay version to csv
 write_csv(overlay, paste0(exp_path,"State_Subs_Public_Housing_ESRI_geocode.csv"))
-
 
 #write shapefile
 write_sf(overlay, paste0(exp_path,'State_Subs_Public_Housing_GEOCODE_2024-04-24.shp'))
