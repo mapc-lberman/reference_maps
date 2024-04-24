@@ -131,7 +131,7 @@ esri_pass <- esri_pass %>%
   mutate(lat = replace(lat, Record_ID == "recLKI6Z6Tt65AqCq", "42.54256216643609")) %>%
   mutate(long = replace(long, Record_ID == "recLKI6Z6Tt65AqCq", "-71.1800214611052"))
  
-# make explicity columns with the x, y obtained from tidygeocoder esri method
+# make explicit columns with the x, y obtained from tidygeocoder esri method
 esri_pass <- esri_pass %>% 
   mutate(esri_lat = lat) %>% 
   mutate(esri_long = long)
