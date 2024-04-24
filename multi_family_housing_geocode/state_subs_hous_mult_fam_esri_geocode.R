@@ -107,7 +107,13 @@ ck <- assets3 %>%
   select(c(Record_ID,Address,City,fix_addr))
 
 #cleanup
-rm(assets1,assets2,ck)
+rm(assets1,assets2)
+
+# keep orig Lat, Long from airtable for comparison
+#assets3 <- assets3 %>% 
+#  mutate(orig_lat = Lat) %>% 
+#  mutate(orig_long = Long) %>% 
+  
 
 ## FIX ZIP CODES WITH LEADING ZERO and CONCAT CLEAN ADDRESSES
 clean_addr <- assets3 %>% 
@@ -124,16 +130,19 @@ esri_pass <- clean_addr %>%
 esri_pass <- esri_pass %>% 
   mutate(lat = replace(lat, Record_ID == "recLKI6Z6Tt65AqCq", "42.54256216643609")) %>%
   mutate(long = replace(long, Record_ID == "recLKI6Z6Tt65AqCq", "-71.1800214611052"))
-  
+ 
+# make explicity columns with the x, y obtained from tidygeocoder esri method
+esri_pass <- esri_pass %>% 
+  mutate(esri_lat = lat) %>% 
+  mutate(esri_long = long)
 
 # export raw version to csv
-#write_csv(esri_pass, paste0(exp_path,"State_Subs_Public_Housing_ESRI_geocode.csv"))
+write_csv(esri_pass, paste0(exp_path,"State_Subs_Public_Housing_ESRI_geocode.csv"))
 
 # sanity check existing x, y values
 trim_na <- esri_pass %>% 
   filter(!is.na(lat) & !is.na(long))
 
-rm(assets_geo_sf)
 # cast x,y to spatial df
 assets_geo_sf <- trim_na %>% 
   st_as_sf(coords = c("long", "lat"), crs=4326)
@@ -165,9 +174,6 @@ st_crs(assets_pts) #epsg 26986
 overlay <- st_join(assets_pts, tracts_base, join = st_within)
 
 # ggplot(overlay) + geom_sf()
-
-# export overlay version to csv
-write_csv(overlay, paste0(exp_path,"State_Subs_Public_Housing_ESRI_geocode.csv"))
 
 #write shapefile
 write_sf(overlay, paste0(exp_path,'State_Subs_Public_Housing_GEOCODE_2024-04-24.shp'))
