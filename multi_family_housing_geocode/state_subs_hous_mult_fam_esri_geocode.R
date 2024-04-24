@@ -109,11 +109,6 @@ ck <- assets3 %>%
 #cleanup
 rm(assets1,assets2)
 
-# keep orig Lat, Long from airtable for comparison
-#assets3 <- assets3 %>% 
-#  mutate(orig_lat = Lat) %>% 
-#  mutate(orig_long = Long) %>% 
-  
 
 ## FIX ZIP CODES WITH LEADING ZERO and CONCAT CLEAN ADDRESSES
 clean_addr <- assets3 %>% 
