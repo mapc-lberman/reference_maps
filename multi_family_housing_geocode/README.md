@@ -6,7 +6,7 @@ use the View called "All Fields"
 
 __process__:  using regex and hand-coded edits to clean up the table for geocoding.   The tidygeocoder package is used, with method = 'esri'
 
-the OSM accuracy was better when examined for spot locations.   however, there were some errors and omissions in the osm geocoding.  these were replaced by NA, then filled in with the esri geocoded results.   all the x, y were preserved in the output shapefile.  the orig_lat, orig_long, were those already in the Airtable. the lat, long were produced with the tidygeocoder method = "esri".   
+errors and omissions in the geocoding.  were patched with corrected addresses.   all the x, y were preserved in the output shapefile.  the orig_lat, orig_long, were those already in the Airtable. the lat, long were produced with the tidygeocoder method = "esri".   
 
 the output shapefile is from the result of esri geocoder, overlayed with Census Tract boundaries to obtain the ct20_id
 
