@@ -91,7 +91,7 @@ map_title = paste0(input_year," Neighborhood Rodent Activity")
 # update data = bos_rats (name of spatial object with data to map)
 # update the range buckets as in: round(max(bos_rats$n) with spatial obj and column
 rat_plot <- ggplot() +
-  geom_sf(data = count_result, linewidth = 0.001, aes(fill = n), color = "grey")+
+  geom_sf(data = bos_rats, linewidth = 0.001, aes(fill = n), color = "grey")+
   scale_fill_continuous(
     high = "purple", low = "white",
     breaks = c(
