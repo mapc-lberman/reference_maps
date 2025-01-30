@@ -72,7 +72,7 @@ senate_key <- senate %>%
 
 senate_info <- read_csv(paste0(leg_path,'legislators_SENATE.csv'))
 
-## join of all HOUSE info with muni-key IDs
+## join of all SENATE info with muni-key IDs
 senate_w_reps <- senate_key %>% 
   left_join(.,
             senate_info,
