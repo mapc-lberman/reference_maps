@@ -18,13 +18,17 @@ R version has been edited for one-to-one match between each district ID and each
 The crosswalk between legislative districts and munis are separated into two tables:
 
 _crosswalks_
+
 legis_xwalk_HOUSE.csv
+
 legis_xwalk_SENATE.csv
 
 The information about current office-holders is split into two tables (so that these can be updated or changed indepedently of the district crosswalk over time.)
 
 _list of current office holders_
+
 legislators_HOUSE.csv
+
 legislators_SENATE.csv
 
 sample script of loading, joining and querying in R: 
