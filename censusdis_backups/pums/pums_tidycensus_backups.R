@@ -11,14 +11,14 @@ library(tidyverse)
 library(tidycensus)
 library(dplyr)
 
-# set output folder
-output = "K:/DataServices/Code/Python/Python_ACS_Script/censusdis_backup_test/pums/"
-
 # if running repeatedly, clear objects first
 rm(pums_vars,uniq,uniq_pers_vars,ma_pums)
 
+# set output folder
+output = "K:/DataServices/Code/Python/Python_ACS_Script/censusdis_backup_test/pums/"
+
 # enter year to archive
-data_year <- 2019
+data_year <- 2011
 
 # get all vars for data year
 pums_vars <- pums_variables %>% 
@@ -43,12 +43,12 @@ uniq_pers_vars <- pums_vars %>%
 
 # person vars
 var.list  <- c('AGEP',
-               'DDRS', # added 16 Sep
-               'DIS',
-               'DEAR', # added 16 Sep
-               'DEYE', # added 16 Sep
-               'DOUT', # added 16 Sep
-               'DPHY', # added 16 Sep
+               #'DDRS', # added 16 Sep
+               #'DIS',
+               #'DEAR', # added 16 Sep
+               #'DEYE', # added 16 Sep
+               #'DOUT', # added 16 Sep
+               #'DPHY', # added 16 Sep
                'DREM', # added 16 Sep
                'ENG',
                'HISP',
@@ -58,7 +58,7 @@ var.list  <- c('AGEP',
                'POBP',
                'RAC1P',
                'RAC2P',
-               'RELSHIPP',
+               #'RELSHIPP',
                'SCH',
                'SCHG',
                'SCHL',
@@ -71,14 +71,14 @@ var.list  <- c('AGEP',
                'ADJINC',
                'BDSP',
                'BLD',
-               'CPLT',
+               #'CPLT',
                'GRNTP',
                'GRPIP',
                #'HHLDRAGEP',
                #'HHLDRHISP',
                #'HHLDRRAC1P',
                'HHT',
-               'HHT2',
+               #'HHT2',
                'HINCP',
                'HUGCL',
                'HUPAC',
@@ -99,12 +99,12 @@ var.list  <- c('AGEP',
                'R60',
                'R65',
                'RMSP',
-               'RT',
+               #'RT',
                'SMOCP',
                'SRNT',
                'SVAL',
                'TEN',
-               'TYPEHUGQ',
+               #'TYPEHUGQ',
                'VACS',
                'VEH',
                #'YRBLT',
