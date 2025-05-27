@@ -2,7 +2,7 @@
 
 circa 2020 
 
-_geojson_ - browse the muni map on github
+_geometry from mapcdatakeys_  example to load Municipal Polygons 
 
 _R_ -  sample of joining muni_data_keys R Package to shapefile
 
