@@ -21,7 +21,7 @@ sdf_4326 <- st_transform(sdf, crs = 4326)
 plot(sdf_4326)
 
 # 2020
-# get 2010 Muni boundaries from Decennial Census
+# get 2020 Muni boundaries from Decennial Census
 muni_geom_20 <- mapcdatakeys::muni_sf(2020)
 # cast to spatial data frame
 sdf20 <- st_as_sf(muni_geom_20)
