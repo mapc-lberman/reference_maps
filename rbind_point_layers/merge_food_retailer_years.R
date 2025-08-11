@@ -2,6 +2,7 @@
 library(sf)
 library(ggplot2)
 library(dplyr)
+library(tidygeocoder)
 
 # update Food Retailers
 # see K:/DataServices/Projects/Current_Projects/PublicHealth/Food_Systems/Online_map/data_axle_data_common_2021.csv
@@ -31,6 +32,8 @@ food_2021 <- food_2021 %>%
 #food_2021_proj <- st_transform(food_2021, crs = 26986)
 
 plot(food_2021)
+
+class(food_2021)
 
 # previous data [no crs]
 
@@ -134,9 +137,82 @@ food_retail <- rbind(food_2021,food_2016,food_2017)
 # ck names: names(food_2021)==names(food_2017_epsg4326)
 
 
+# geocode addresses into new fields for consistent x,y
 
-#not yet used below
+## CONCAT CLEAN ADDRESSES
+clean_addr <- food_retail %>% 
+#  mutate(fix_zip = as.character(str_pad(Zip, width = 5, side = c("left"), pad = 0))) %>% 
+  mutate(concat_addr = as.character(paste0(staddr,", ",stcity,", MA,",zip)))
 
-#plot(ma_poly_buf_neg)
+# Filtering by one year 2021
+addr_2021 <- clean_addr %>% 
+  filter(year %in% "2021")
 
-st_write(food_retail, "H:/0_PROJECTS/2025_food_retailers/shp/food_retail_multiyear.shp")
+#geocode addresses
+esri_pass_2021 <- addr_2021 %>% 
+  geocode(address = 'concat_addr', method = 'arcgis') 
+
+# drop the orig geometry
+esri_gc_2021 <- esri_pass_2021 %>% 
+  select(-c(geometry))
+class(esri_gc_2021)
+
+#fix goshen address
+esri_gc_2021[esri_gc_2021$locnum=='106221351', "staddr"] <- "31 Main St"
+
+# Filtering by one year 2017
+addr_2017 <- clean_addr %>% 
+  filter(year %in% "2017")
+
+#geocode addresses
+esri_pass_2017 <- addr_2017 %>% 
+  geocode(address = 'concat_addr', method = 'arcgis') 
+
+# drop the orig geometry
+esri_gc_2017 <- esri_pass_2017 %>% 
+  select(-c(geometry))
+class(esri_gc_2017)
+
+
+#fix goshen address
+esri_gc_2021[esri_gc_2021$locnum=='106221351', "staddr"] <- "31 Main St"
+esri_gc_2021[esri_gc_2021$locnum=='106221351', "concat_addr"] <- "31 Main St, Goshen, MA,01032"
+esri_gc_2021[esri_gc_2021$locnum=='106221351', "lat"] <- 42.43997
+esri_gc_2021[esri_gc_2021$locnum=='106221351', "long"] <- -72.79990
+
+
+
+# Filtering by one year 2016
+addr_2016 <- clean_addr %>% 
+  filter(year %in% "2016")
+
+#geocode addresses
+esri_pass_2016 <- addr_2016 %>% 
+  geocode(address = 'concat_addr', method = 'arcgis') 
+
+# drop the orig geometry
+esri_gc_2016 <- esri_pass_2016 %>% 
+  select(-c(geometry))
+class(esri_gc_2016)
+
+# rbind the versions with new geocoded x, y
+food_retail_geocode <- rbind(esri_gc_2021,esri_gc_2017,esri_gc_2016)
+
+# remove odd entry with false geocoded result
+food_retail_geocode <- food_retail_geocode %>% filter(coname != "Shrimp Belly")
+
+# cast x,y to spatial df
+food_retail_sf <- food_retail_geocode %>% 
+  st_as_sf(coords = c("long", "lat"), crs=4326)
+
+class(food_retail_sf)
+
+food_retail_sf <- food_retail_sf %>% 
+  mutate(conc_addr = concat_addr) %>% 
+  select(-c(concat_addr))
+  select(c(coname,locnum,staddr,stcity,zip,naics,naics_6,store_type,year,conc_addr,geometry))
+
+
+plot(food_retail_sf)
+
+st_write(food_retail_sf, "H:/0_PROJECTS/2025_food_retailers/shp/food_retail_multiyear.shp")
