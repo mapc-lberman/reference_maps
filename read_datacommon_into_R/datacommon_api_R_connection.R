@@ -2,8 +2,11 @@ library(dplyr)
 library(tidycensus)
 
 # R TUTORIAL FOR DATACOMMON
-# lberman 2024-06-27
-# revised for new API factors 2025-09-04
+
+# see API documentation:
+# https://mapc.github.io/datacommon-api-explorer/
+# by Zoe Lu
+
 
 ### 0. SETUP VARIABLES SECTION
 
@@ -50,3 +53,86 @@ get_multi_b25127 <- read.csv(paste0("https://datacommon.mapc.org/api/export?toke
 ## 1.3 import table that does NOT have ACS year column defined
 get_perf <- read.csv("https://datacommon.mapc.org/api/export?token=datacommon&database=ds&schema=tabular&table=trans_perfect_fit_parking&format=csv")
 
+
+# 2  test cases from R API
+#  https://mapc.github.io/datacommon-api-explorer/
+
+# Install jsonlite if you don't have it yet
+install.packages("jsonlite")
+
+# Load the library
+library(jsonlite)
+
+# API URL
+url <- "https://datacommon.mapc.org/api/?token=datacommon&database=ds&query=SELECT+muni%2C+park_dem%2C+util_rate%2C+bldg_affp%2C+walk_score+FROM+tabular.trans_perfect_fit_parking+WHERE+muni+LIKE+%27Boston%27"
+
+# Read JSON directly into a data frame
+response <- fromJSON(url)
+
+# Extract data and fields
+data <- response$rows
+fields <- response$fields
+
+# View results
+str(data)
+head(data)
+print(fields)
+
+# Convert to data frame for analysis
+df <- as.data.frame(data)
+
+# Example analysis
+summary(df)
+
+### query on phase col
+
+# Install jsonlite if you don't have it yet
+install.packages("jsonlite")
+
+# Load the library
+library(jsonlite)
+
+# API URL
+url <- "https://datacommon.mapc.org/api/?token=datacommon&database=ds&query=SELECT+muni%2C+park_dem%2C+util_rate%2C+bldg_affp%2C+walk_score+FROM+tabular.trans_perfect_fit_parking+WHERE+muni+LIKE+%27Salem%27%0A"
+
+# Read JSON directly into a data frame
+response <- fromJSON(url)
+
+# Extract data and fields
+data <- response$rows
+fields <- response$fields
+
+# View results
+str(data)
+head(data)
+print(fields)
+
+# Convert to data frame for analysis
+df <- as.data.frame(data)
+
+# Example analysis
+summary(df)
+
+# try phase column
+
+
+# API URL
+url <- "https://datacommon.mapc.org/api/?token=datacommon&database=ds&query=SELECT+muni%2C+park_dem%2C+util_rate%2C+bldg_affp%2C+walk_score%2C+phase+FROM+tabular.trans_perfect_fit_parking+WHERE+phase+LIKE+%27phase+5%27%0A"
+
+# Read JSON directly into a data frame
+response <- fromJSON(url)
+
+# Extract data and fields
+data <- response$rows
+fields <- response$fields
+
+# View results
+str(data)
+head(data)
+print(fields)
+
+# Convert to data frame for analysis
+df <- as.data.frame(data)
+
+# Example analysis
+summary(df)
