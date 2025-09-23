@@ -136,3 +136,43 @@ df <- as.data.frame(data)
 
 # Example analysis
 summary(df)
+
+
+### FIND DUPES USING THE R API WITH JSON 
+
+# example checks for duplicate columns in the ACS VARS to DATACOMMON COL index
+
+# API URL
+url <- "https://datacommon.mapc.org/api/export?token=datacommon&database=ds&schema=tabular&table=acs_vars_db_cols_index&format=json"
+
+# Read JSON directly into a data frame
+data <- fromJSON(url)
+
+# Inspect the data
+str(data)
+head(data)
+
+# Convert to data frame
+data_raw <- as.data.frame(data)
+
+
+# View data structure and first few rows
+str(data_raw)
+head(data_raw)
+
+# concatenate table_nm and col to get unique table+column spellings
+data_ck_dupe <- data_raw %>% 
+  mutate(uniq_col = paste0(table_nm,"_",col))
+
+# count dupes
+dupes <- data_ck_dupe %>% group_by(uniq_col) %>% summarise(n=n()) %>% filter(n>1)
+
+# export for eval and removal
+currentDate <- Sys.Date()
+dateAsText <- format(currentDate, "%Y-%m-%d")
+
+#change to your path
+exp_path = "H:/0_PROJECTS/2025_ACS_vars_index/"
+
+write.csv(dupes, paste0(exp_path, "DUPES_acs_vars_db_cols_index_",dateAsText,".csv"), row.names = FALSE)
+
